@@ -90,3 +90,4 @@ sw.*
 *.swp
 
 /assets/images
+/assets/css/vendor
