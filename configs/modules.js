@@ -1,1 +1,1 @@
-export default ['@nuxtjs/pwa']
+export default ['@nuxtjs/pwa', 'bootstrap-vue/nuxt']
