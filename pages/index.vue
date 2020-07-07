@@ -2,24 +2,7 @@
 	<div class="main-page-wrapper">
 		<pre-loader v-show="false" />
 
-		<div id="theme-banner-three">
-			<div class="container">
-				<div class="main-wrapper">
-					<h1 class="main-title wow fadeInUp animated" data-wow-delay="0.2s">
-						<span class="cd-headline clip">
-							<span>I Am Rashed Develope Quality</span>
-							<span class="cd-words-wrapper">
-								<b class="is-visible">Website<i>.</i></b>
-								<b>Mobile App<i>.</i></b>
-								<b>Landing Page<i>.</i></b>
-							</span>
-						</span>
-					</h1>
-				</div>
-				<!-- /.main-wrapper -->
-			</div>
-			<!-- /.container -->
-		</div>
+		<banner />
 
 		<!--
 			=============================================
@@ -681,7 +664,8 @@
 
 <script>
 import PreLoader from '~/components/layouts/PreLoader.vue'
+import Banner from '~/components/pages/index/banner/Banner.vue'
 export default {
-	components: { PreLoader },
+	components: { Banner, PreLoader },
 }
 </script>
