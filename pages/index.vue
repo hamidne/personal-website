@@ -1,13 +1,7 @@
 <template>
 	<div class="main-page-wrapper">
 		<pre-loader v-show="false" />
-		<navbar />
 
-		<!--
-			=============================================
-				Theme Main Banner Three
-			==============================================
-			-->
 		<div id="theme-banner-three">
 			<div class="container">
 				<div class="main-wrapper">
@@ -26,7 +20,6 @@
 			</div>
 			<!-- /.container -->
 		</div>
-		<!-- /#theme-banner-one -->
 
 		<!--
 			=============================================
@@ -688,8 +681,7 @@
 
 <script>
 import PreLoader from '~/components/layouts/PreLoader.vue'
-import Navbar from '~/components/layouts/navbar/Navbar.vue'
 export default {
-	components: { Navbar, PreLoader },
+	components: { PreLoader },
 }
 </script>
