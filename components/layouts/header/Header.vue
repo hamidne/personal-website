@@ -1,8 +1,7 @@
 <template>
 	<div class="theme-main-menu theme-menu-three">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo/logo4.svg" alt="" /></a>
-		</div>
+		<header-brand />
+
 		<nav id="mega-menu-holder" class="navbar navbar-expand-lg">
 			<div class="ml-auto nav-container">
 				<button
@@ -94,7 +93,6 @@
 					</ul>
 				</div>
 			</div>
-			<!-- /.container -->
 		</nav>
 
 		<header-socials />
@@ -102,9 +100,10 @@
 </template>
 
 <script>
+import HeaderBrand from '~/components/layouts/header/HeaderBrand.vue'
 import HeaderSocials from '~/components/layouts/header/HeaderSocials.vue'
 export default {
-	components: { HeaderSocials },
+	components: { HeaderBrand, HeaderSocials },
 }
 </script>
 
