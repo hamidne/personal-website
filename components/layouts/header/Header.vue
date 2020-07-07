@@ -96,26 +96,16 @@
 			</div>
 			<!-- /.container -->
 		</nav>
-		<!-- /#mega-menu-holder -->
-		<div class="header-right-widget">
-			<ul class="social-icon">
-				<li>
-					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				</li>
-				<li>
-					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				</li>
-				<li>
-					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				</li>
-			</ul>
-		</div>
-		<!-- /.header-right-widget -->
+
+		<header-socials />
 	</div>
 </template>
 
 <script>
-export default {}
+import HeaderSocials from '~/components/layouts/header/HeaderSocials.vue'
+export default {
+	components: { HeaderSocials },
+}
 </script>
 
 <style lang="scss" scoped></style>
