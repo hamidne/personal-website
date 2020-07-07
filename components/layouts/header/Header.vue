@@ -1,5 +1,5 @@
 <template>
-	<div class="theme-main-menu theme-menu-three">
+	<div class="theme-main-menu theme-menu-three" :class="{ fixed }">
 		<header-brand />
 
 		<nav id="mega-menu-holder" class="navbar navbar-expand-lg">
@@ -102,8 +102,21 @@
 <script>
 import HeaderBrand from '~/components/layouts/header/HeaderBrand.vue'
 import HeaderSocials from '~/components/layouts/header/HeaderSocials.vue'
+
 export default {
 	components: { HeaderBrand, HeaderSocials },
+	data: () => ({ fixed: false }),
+	mounted() {
+		document.addEventListener('scroll', this.handleScroll)
+	},
+	destroyed() {
+		document.removeEventListener('scroll', this.handleScroll)
+	},
+	methods: {
+		handleScroll() {
+			this.fixed = window.scrollY > screen.height / 10
+		},
+	},
 }
 </script>
 
