@@ -1,5 +1,9 @@
 import css from './configs/css'
 import head from './configs/head'
+import build from './configs/build'
+import modules from './configs/modules'
+import plugins from './configs/plugins'
+import buildModules from './configs/buildModules'
 
 export default {
 	mode: 'universal',
@@ -7,11 +11,8 @@ export default {
 
 	css,
 	head,
-	plugins: [],
-	buildModules: [
-		// Doc: https://github.com/nuxt-community/eslint-module
-		'@nuxtjs/eslint-module',
-	],
-	modules: ['@nuxtjs/pwa'],
-	build: {},
+	build,
+	modules,
+	plugins,
+	buildModules,
 }
