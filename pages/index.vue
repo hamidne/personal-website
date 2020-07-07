@@ -1,36 +1,6 @@
 <template>
 	<div class="main-page-wrapper">
-		<!-- ===================================================
-				Loading Transition
-			==================================================== -->
-		<!-- Preloader -->
-		<section v-show="false">
-			<div id="preloader">
-				<div id="ctn-preloader" class="ctn-preloader">
-					<div class="animation-preloader">
-						<div class="spinner"></div>
-						<div class="txt-loading">
-							<span data-text-preloader="R" class="letters-loading">
-								R
-							</span>
-							<span data-text-preloader="O" class="letters-loading">
-								O
-							</span>
-							<span data-text-preloader="G" class="letters-loading">
-								G
-							</span>
-							<span data-text-preloader="A" class="letters-loading">
-								A
-							</span>
-							<span data-text-preloader="N" class="letters-loading">
-								N
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
+		<pre-loader v-show="false" />
 		<navbar />
 
 		<!--
@@ -717,8 +687,9 @@
 </template>
 
 <script>
+import PreLoader from '~/components/layouts/PreLoader.vue'
 import Navbar from '~/components/layouts/navbar/Navbar.vue'
 export default {
-	components: { Navbar },
+	components: { Navbar, PreLoader },
 }
 </script>
