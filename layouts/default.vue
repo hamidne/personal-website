@@ -1,14 +1,17 @@
 <template>
 	<div>
-		<navbar />
+		<header-layout />
 		<nuxt />
+		<footer-layout />
 	</div>
 </template>
 
 <script>
-import Navbar from '~/components/layouts/navbar/Navbar.vue'
+import HeaderLayout from '~/components/layouts/header/Header.vue'
+import FooterLayout from '~/components/layouts/footer/Footer.vue'
+
 export default {
-	components: { Navbar },
+	components: { HeaderLayout, FooterLayout },
 }
 </script>
 
