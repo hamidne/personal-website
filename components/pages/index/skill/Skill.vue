@@ -1,22 +1,13 @@
 <template>
 	<div class="section-portfo skill-section-portfo">
 		<div class="section-num hide-pr"><span>0</span><span>2</span></div>
-		<div class="container">
+		<b-container>
 			<h2 class="theme-title-two">Experties<span>.</span></h2>
 
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="skill-bar">
-						<div class="progress">
-							<div class="progress-bar" data-percent="80">
-								<span class="percent-text"><span class="count"></span>%</span>
-							</div>
-						</div>
-						<div class="skill-title">Web Designing</div>
-						<span class="category">HTML/CSS</span>
-					</div>
-					<!-- /.skill-bar -->
-				</div>
+			<b-row>
+				<b-col lg="6">
+					<skill-item title="Web Designing" category="HTML/CSS" :percent="80" />
+				</b-col>
 				<div class="col-lg-6">
 					<div class="skill-bar">
 						<div class="progress">
@@ -53,14 +44,16 @@
 					</div>
 					<!-- /.skill-bar -->
 				</div>
-			</div>
-			<!-- /.row -->
-		</div>
+			</b-row>
+		</b-container>
 	</div>
 </template>
 
 <script>
-export default {}
+import SkillItem from '~/components/pages/index/skill/SkillItem.vue'
+export default {
+	components: { SkillItem },
+}
 </script>
 
 <style lang="scss" scoped></style>
