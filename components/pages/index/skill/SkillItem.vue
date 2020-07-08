@@ -1,18 +1,31 @@
 <template>
 	<div class="skill-bar">
 		<div class="progress">
-			<div class="progress-bar" data-percent="80">
+			<div class="progress-bar" :data-percent="percent">
 				<span class="percent-text"><span class="count"></span>%</span>
 			</div>
 		</div>
-		<div class="skill-title">Web Designing</div>
-		<span class="category">HTML/CSS</span>
+		<div class="skill-title" v-text="title" />
+		<span class="category" v-text="category" />
 	</div>
 </template>
 
 <script>
 export default {
-	props: {},
+	props: {
+		title: {
+			type: String,
+			required: true,
+		},
+		category: {
+			type: String,
+			required: true,
+		},
+		percent: {
+			type: Number,
+			default: 0,
+		},
+	},
 }
 </script>
 
