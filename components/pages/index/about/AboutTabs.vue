@@ -1,19 +1,7 @@
 <template>
-	<div class="profile-tab">
-		<ul class="nav nav-tabs hide-pr">
-			<li class="nav-item">
-				<a class="nav-link active" data-toggle="tab" href="#myself">Myself.</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="#education">Education.</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="#skill">Skill.</a>
-			</li>
-		</ul>
-
-		<div class="tab-content">
-			<div id="myself" class="tab-pane active">
+	<div>
+		<b-tabs class="profile-tab" content-class="mt-3">
+			<b-tab title="Myself." active>
 				<p>
 					Hello! I’m <span>Rashedul Kabir</span> a self-taught &
 					<span>award winning Digital Designer & Developer</span> with over
@@ -23,8 +11,8 @@
 					working for <span>Apple</span> fredmansky and enjoying the life in the
 					countryside.
 				</p>
-			</div>
-			<div id="education" class="tab-pane fade">
+			</b-tab>
+			<b-tab title="Education.">
 				<p>
 					<b>STATE UNIVERSITY</b>, State College, Pa.
 					<span>Bachelor of Arts in Advertising;</span> Minor: Spanish; GPA:
@@ -38,8 +26,8 @@
 						State University, Spring 2013
 					</li>
 				</ul>
-			</div>
-			<div id="skill" class="tab-pane fade">
+			</b-tab>
+			<b-tab title="Skill.">
 				<p>
 					Sed ut perspiciatis
 					<span>unde omnis iste natus error sit</span> voluptatem accusantium
@@ -51,13 +39,14 @@
 					<li>Web Development. _<span>WORDPRESS/PHP</span></li>
 					<li>Application Dev. _<span>ANDROID/ IOS</span></li>
 				</ul>
-			</div>
+			</b-tab>
+		</b-tabs>
+		<div class="profile-tab">
+			<ul class="button-group">
+				<li><a href="#" class="download-button">Download CV.</a></li>
+				<li><a href="#" class="hire-button">Hire Me</a></li>
+			</ul>
 		</div>
-
-		<ul class="button-group">
-			<li><a href="#" class="download-button">Download CV.</a></li>
-			<li><a href="#" class="hire-button">Hire Me</a></li>
-		</ul>
 	</div>
 </template>
 
