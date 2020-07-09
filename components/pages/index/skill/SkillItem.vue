@@ -2,7 +2,9 @@
 	<div class="skill-bar">
 		<div class="progress">
 			<div class="progress-bar" :data-percent="percent">
-				<span class="percent-text"><span class="count"></span>%</span>
+				<span class="percent-text">
+					<span ref="percent" class="count"></span>%
+				</span>
 			</div>
 		</div>
 		<div class="skill-title" v-text="title" />
@@ -11,6 +13,8 @@
 </template>
 
 <script>
+import { CountUp } from 'countup.js'
+
 export default {
 	props: {
 		title: {
@@ -25,6 +29,13 @@ export default {
 			type: Number,
 			default: 0,
 		},
+	},
+	data: () => ({}),
+	mounted() {
+		this.countUp = new CountUp(this.$refs.percent, this.percent, {
+			suffix: '%',
+		})
+		window.addEventListener('scroll', this.countUpFn)
 	},
 }
 </script>
