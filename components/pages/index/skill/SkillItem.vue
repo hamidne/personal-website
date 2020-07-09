@@ -3,7 +3,16 @@
 		<div class="progress">
 			<div class="progress-bar" :data-percent="percent">
 				<span class="percent-text">
-					<span ref="percent" class="count"></span>%
+					<countTo
+						ref="percent"
+						class="count"
+						:start-val="0"
+						:end-val="percent"
+						:duration="3000"
+						:autoplay="false"
+						suffix="%"
+					/>
+					<span class="count">0</span>%
 				</span>
 			</div>
 		</div>
@@ -13,9 +22,10 @@
 </template>
 
 <script>
-import { CountUp } from 'countup.js'
+import countTo from 'vue-count-to'
 
 export default {
+	components: { countTo },
 	props: {
 		title: {
 			type: String,
@@ -31,12 +41,6 @@ export default {
 		},
 	},
 	data: () => ({}),
-	mounted() {
-		this.countUp = new CountUp(this.$refs.percent, this.percent, {
-			suffix: '%',
-		})
-		window.addEventListener('scroll', this.countUpFn)
-	},
 }
 </script>
 
