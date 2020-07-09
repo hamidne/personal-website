@@ -12,19 +12,7 @@
 
 			<div class="row">
 				<div class="col-lg-6" data-aos="flip-right">
-					<div class="service-block">
-						<img src="images/icon/icon18.svg" alt="" class="icon" />
-						<h5 class="title">
-							<a href="#">Front-End & Responsive Coding.</a>
-						</h5>
-						<p>
-							Extreme attention to detail is the essence of et Boo’s unique
-							design concepts. In mals alienum scripserit sea, in alia aliquid
-							nec
-						</p>
-						<a href="#" class="read-more"><i class="flaticon-next"></i></a>
-					</div>
-					<!-- /.service-block -->
+					<service-item />
 				</div>
 				<!-- /.col- -->
 				<div class="col-lg-6">
@@ -83,7 +71,10 @@
 </template>
 
 <script>
-export default {}
+import ServiceItem from '~/components/pages/index/service/ServiceItem.vue'
+export default {
+	components: { ServiceItem },
+}
 </script>
 
 <style lang="scss" scoped></style>
