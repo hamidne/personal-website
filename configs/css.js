@@ -13,4 +13,5 @@ export default [
 	'~/assets/css/vendor/animated-headline-master/style.css',
 	'~/assets/css/vendor/iziModal-master/iziModal.css',
 	'~/assets/css/vendor/tabs/tabs.css',
+	'~/assets/scss/vendors/font-awesome/all.scss',
 ]
