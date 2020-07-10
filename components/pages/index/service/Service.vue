@@ -17,7 +17,11 @@
 					lg="6"
 					data-aos="flip-right"
 				>
-					<service-item :title="item.title" :description="item.description" />
+					<service-item
+						:icon="item.icon"
+						:title="item.title"
+						:description="item.description"
+					/>
 				</b-col>
 			</b-row>
 		</div>

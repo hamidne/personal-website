@@ -1,1 +1,4 @@
-export default [{ src: '~/plugins/aos', mode: 'client' }]
+export default [
+	{ src: '~/plugins/aos', mode: 'client' },
+	{ src: '~/plugins/swiper', mode: 'client' },
+]
