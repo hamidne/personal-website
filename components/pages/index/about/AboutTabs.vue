@@ -1,6 +1,10 @@
 <template>
-	<div>
-		<b-tabs class="profile-tab" content-class="mt-3">
+	<div v-observe-visibility="visibilityChanged">
+		<b-tabs
+			class="profile-tab"
+			content-class="mt-3"
+			:nav-class="{ 'show-pr': visiable }"
+		>
 			<b-tab title="Myself." active>
 				<p>
 					Hello! I’m <span>Rashedul Kabir</span> a self-taught &
@@ -51,7 +55,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+	data: () => ({ visiable: false }),
+	methods: {
+		visibilityChanged(visiable, entry) {
+			this.visiable = visiable
+		},
+	},
+}
 </script>
 
 <style lang="scss" scoped></style>
