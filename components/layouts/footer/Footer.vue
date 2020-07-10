@@ -12,21 +12,8 @@
 			<footer-form />
 
 			<div class="copyright-text">
-				<ul class="social-icon">
-					<li>
-						<a href="#"><i class="fab fa-facebook-f" aria-hidden="true" /></a>
-					</li>
-					<li>
-						<a href="#"><i class="fab fa-dribbble" aria-hidden="true" /></a>
-					</li>
-					<li>
-						<a href="#"><i class="fab fa-linkedin-in" aria-hidden="true" /></a>
-					</li>
-					<li>
-						<a href="#"><i class="fab fa-github-alt" aria-hidden="true" /></a>
-					</li>
-				</ul>
-				<p>&copy; Built with Love By CreativeGigs.</p>
+				<footer-socials />
+				<p>&copy; Built with Love By HamidNE.</p>
 			</div>
 		</div>
 	</footer>
@@ -34,9 +21,10 @@
 
 <script>
 import FooterForm from '~/components/layouts/footer/FooterForm.vue'
+import FooterSocials from '~/components/layouts/footer/FooterSocials.vue'
 
 export default {
-	components: { FooterForm },
+	components: { FooterForm, FooterSocials },
 }
 </script>
 
