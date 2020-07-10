@@ -1,21 +1,25 @@
 <template>
 	<div class="header-right-widget">
 		<ul class="social-icon">
-			<li>
-				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			</li>
-			<li>
-				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			</li>
-			<li>
-				<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<li v-for="(item, index) in items" :key="index">
+				<a href="#" class="d-flex align-items-center justify-content-center">
+					<i :class="item.icon" />
+				</a>
 			</li>
 		</ul>
 	</div>
 </template>
 
 <script>
-export default {}
+export default {
+	data: () => ({
+		items: [
+			{ icon: 'fab fa-facebook-f', links: '' },
+			{ icon: 'fab fa-twitter', links: '' },
+			{ icon: 'fab fa-linkedin-in', links: '' },
+		],
+	}),
+}
 </script>
 
 <style lang="scss" scoped></style>
