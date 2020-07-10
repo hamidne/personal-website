@@ -6,7 +6,7 @@
 		</h5>
 		<p v-text="description" />
 		<a href="#" class="read-more">
-			<i class="flaticon-next" />
+			<i class="fal fa-long-arrow-right" />
 		</a>
 	</div>
 </template>

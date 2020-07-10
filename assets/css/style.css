@@ -3304,13 +3304,14 @@ body .line-button-three:hover,
 	padding-left: 80px;
 }
 .portfo-testimonial .slider-wrapper:before {
-	content: '\f111';
-	font-family: Flaticon;
+	content: '\f10d';
+	font-family: 'Font Awesome 5 Pro';
 	position: absolute;
 	color: #2d3061;
 	font-size: 115px;
 	top: -93px;
 	left: 80px;
+	font-weight: 700;
 }
 .portfo-testimonial .slider-wrapper .item p {
 	font-size: 26px;
