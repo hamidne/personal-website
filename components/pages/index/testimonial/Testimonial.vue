@@ -22,6 +22,7 @@
 
 <script>
 import TestimonialSlider from '~/components/pages/index/testimonial/TestimonialSlider.vue'
+
 export default {
 	components: { TestimonialSlider },
 }
