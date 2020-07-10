@@ -56,16 +56,16 @@
 			<div class="copyright-text">
 				<ul class="social-icon">
 					<li>
-						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fab fa-facebook-f" aria-hidden="true" /></a>
 					</li>
 					<li>
-						<a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+						<a href="#"><i class="fab fa-dribbble" aria-hidden="true" /></a>
 					</li>
 					<li>
-						<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in" aria-hidden="true" /></a>
 					</li>
 					<li>
-						<a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+						<a href="#"><i class="fab fa-github-alt" aria-hidden="true" /></a>
 					</li>
 				</ul>
 				<p>&copy; Built with Love By CreativeGigs.</p>
