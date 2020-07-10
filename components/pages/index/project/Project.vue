@@ -1,6 +1,6 @@
 <template>
 	<div class="section-portfo our-project-portfo">
-		<div class="section-num hide-pr"><span>0</span><span>4</span></div>
+		<section-number :number="4" />
 		<div class="container">
 			<h2 class="theme-title-two">Projects<span>.</span></h2>
 
@@ -226,7 +226,11 @@
 </template>
 
 <script>
-export default {}
+import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
+
+export default {
+	components: { SectionNumber },
+}
 </script>
 
 <style lang="scss" scoped></style>
