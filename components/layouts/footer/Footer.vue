@@ -1,82 +1,44 @@
 <template>
-	<footer class="portfo-footer hide-pr">
+	<footer
+		v-observe-visibility="visibilityChanged"
+		class="portfo-footer hide-pr"
+		:class="{ 'show-pr': visiable }"
+	>
 		<img src="images/shape/shape-7.svg" alt="" class="round-shape" />
 		<div class="container">
-			<div class="theme-title-one text-center hide-pr">
+			<div
+				class="theme-title-one text-center hide-pr"
+				:class="{ 'show-pr': visiable }"
+			>
 				<div class="upper-title">Contact Us</div>
 				<h2 class="main-title">
 					Send me a message, I will be touch <br />with you shortly.
 				</h2>
 			</div>
-			<!-- /.theme-title-one -->
 
-			<form action="#">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="input-group">
-							<input type="text" required />
-							<label>Your Name</label>
-						</div>
-						<!-- /.input-group -->
-					</div>
-					<!-- /.col- -->
-					<div class="col-lg-6">
-						<div class="input-group">
-							<input type="email" required />
-							<label>Your Email Address</label>
-						</div>
-						<!-- /.input-group -->
-					</div>
-					<!-- /.col- -->
-					<div class="col-12">
-						<div class="input-group">
-							<input type="text" required />
-							<label>Your Subject</label>
-						</div>
-						<!-- /.input-group -->
-					</div>
-					<!-- /.col- -->
-					<div class="col-12">
-						<div class="input-group">
-							<textarea required></textarea>
-							<label>Your Message</label>
-						</div>
-						<!-- /.input-group -->
-					</div>
-					<!-- /.col- -->
-					<div class="col-12">
-						<div class="clearfix">
-							<button class="send-button">Send Message</button>
-						</div>
-					</div>
-				</div>
-				<!-- /.row -->
-			</form>
+			<footer-form />
 
 			<div class="copyright-text">
-				<ul class="social-icon">
-					<li>
-						<a href="#"><i class="fab fa-facebook-f" aria-hidden="true" /></a>
-					</li>
-					<li>
-						<a href="#"><i class="fab fa-dribbble" aria-hidden="true" /></a>
-					</li>
-					<li>
-						<a href="#"><i class="fab fa-linkedin-in" aria-hidden="true" /></a>
-					</li>
-					<li>
-						<a href="#"><i class="fab fa-github-alt" aria-hidden="true" /></a>
-					</li>
-				</ul>
-				<p>&copy; Built with Love By CreativeGigs.</p>
+				<footer-socials />
+				<p>&copy; Built with Love By HamidNE.</p>
 			</div>
-			<!-- /.copyright-text -->
 		</div>
 	</footer>
 </template>
 
 <script>
-export default {}
+import FooterForm from '~/components/layouts/footer/FooterForm.vue'
+import FooterSocials from '~/components/layouts/footer/FooterSocials.vue'
+
+export default {
+	components: { FooterForm, FooterSocials },
+	data: () => ({ visiable: false }),
+	methods: {
+		visibilityChanged(visiable, entry) {
+			this.visiable = visiable
+		},
+	},
+}
 </script>
 
 <style lang="scss" scoped></style>

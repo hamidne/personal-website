@@ -46,11 +46,12 @@
 export default {
 	data: () => ({
 		swiperOptions: {
+			loop: true,
 			speed: 1400,
 			effect: 'fade',
-			loop: true,
 			autoplay: {
-				delay: 3000,
+				delay: 2500,
+				disableOnInteraction: false,
 			},
 			pagination: {
 				el: '.swiper-pagination',

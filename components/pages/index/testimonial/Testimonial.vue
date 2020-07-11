@@ -1,6 +1,6 @@
 <template>
 	<div class="portfo-testimonial section-portfo">
-		<div class="section-num hide-pr"><span>0</span><span>5</span></div>
+		<section-number :number="5" />
 		<div class="container clearfix">
 			<h2 class="theme-title-two">Testimonials<span>.</span></h2>
 
@@ -21,10 +21,11 @@
 </template>
 
 <script>
+import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 import TestimonialSlider from '~/components/pages/index/testimonial/TestimonialSlider.vue'
 
 export default {
-	components: { TestimonialSlider },
+	components: { SectionNumber, TestimonialSlider },
 }
 </script>
 

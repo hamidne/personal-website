@@ -1,9 +1,8 @@
 <template>
 	<div class="section-portfo skill-section-portfo">
-		<div class="section-num hide-pr"><span>0</span><span>2</span></div>
+		<section-number :number="2" />
 		<b-container>
 			<h2 class="theme-title-two">Experties<span>.</span></h2>
-
 			<b-row>
 				<b-col v-for="(item, index) in items" :key="index" lg="6">
 					<skill-item
@@ -19,9 +18,10 @@
 
 <script>
 import SkillItem from '~/components/pages/index/skill/SkillItem.vue'
+import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 
 export default {
-	components: { SkillItem },
+	components: { SkillItem, SectionNumber },
 	data: () => ({
 		items: [
 			{ title: 'Web Designing', category: 'HTML/CSS', percent: 80 },

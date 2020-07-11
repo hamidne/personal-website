@@ -1,6 +1,6 @@
 <template>
 	<div class="section-portfo our-service-portfo">
-		<div class="section-num hide-pr"><span>0</span><span>3</span></div>
+		<section-number :number="3" />
 		<div class="container">
 			<div class="title-wrapper">
 				<h2 class="theme-title-two">Services<span>.</span></h2>
@@ -30,8 +30,10 @@
 
 <script>
 import ServiceItem from '~/components/pages/index/service/ServiceItem.vue'
+import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
+
 export default {
-	components: { ServiceItem },
+	components: { ServiceItem, SectionNumber },
 	data: () => ({
 		items: [
 			{
