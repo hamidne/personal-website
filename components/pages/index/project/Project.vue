@@ -1,10 +1,13 @@
 <template>
-	<div class="section-portfo our-project-portfo">
+	<div
+		v-observe-visibility="visibilityChanged"
+		class="section-portfo our-project-portfo"
+	>
 		<section-number :number="4" />
 		<div class="container">
 			<h2 class="theme-title-two">Projects<span>.</span></h2>
 
-			<ul class="isotop-menu-wrapper hide-pr">
+			<ul class="isotop-menu-wrapper hide-pr" :class="{ 'show-pr': visiable }">
 				<li class="is-checked" data-filter="*">Design.</li>
 				<li data-filter=".development">Development.</li>
 				<li data-filter=".marketing">Marketing.</li>
@@ -23,8 +26,9 @@
 				class="gallery-button"
 				data-aos="fade-left"
 				data-aos-duration="2000"
-				>View Gallery</a
 			>
+				View Gallery
+			</a>
 		</div>
 
 		<project-gallery />
@@ -37,6 +41,12 @@ import ProjectGallery from '~/components/pages/index/project/ProjectGallery.vue'
 
 export default {
 	components: { SectionNumber, ProjectGallery },
+	data: () => ({ visiable: false }),
+	methods: {
+		visibilityChanged(visiable, entry) {
+			this.visiable = visiable
+		},
+	},
 }
 </script>
 
