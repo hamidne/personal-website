@@ -121,55 +121,27 @@
 /**
 * Importing necessary  Styles.
 **/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900,700|Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;600;800&display=swap');
 /* @import url('../fonts/circular-std/css/circular-std.css'); */
-/*----bootstrap css ----- */
-/* @import url('../vendor/bootstrap/css/bootstrap.min.css'); */
-/*------- menu ------*/
-/* @import url('../vendor/mega-menu/assets/css/menu.css'); */
-/*----font awesome -------*/
-/* @import url('../fonts/font-awesome/css/font-awesome.min.css'); */
-/*----owl-carousel css----*/
-/* @import url('../vendor/owl-carousel/owl.carousel.css');
-@import url('../vendor/owl-carousel/owl.theme.css');
-@import url('../vendor/owl-carousel/animate.css'); */
-/*-------- AOS css ------*/
-/* @import url('../vendor/aos-next/dist/aos.css'); */
-/*----------- Fancybox css -------*/
-/* @import url('../vendor/fancybox/dist/jquery.fancybox.min.css'); */
-/*------------- Map -------------*/
-/* @import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css'); */
 /*----Flaticon-------*/
 /* @import url('../fonts/icon/font/flaticon.css'); */
 /*---------------- Custom Animation -------------*/
 /* @import url('custom-animation.css'); */
 /*---------------- Animated Headline -------------*/
 /* @import url('../vendor/animated-headline-master/style.css'); */
-/*---------------- Modal -------------*/
-/* @import url('../vendor/iziModal-master/iziModal.css'); */
-/*--------- Jquery ui ---------*/
-/* @import url('../vendor/jquery-ui/jquery-ui.min.css'); */
-/*--------- Select js ---------*/
-/* @import url('../vendor/selectize.js/selectize.css'); */
-/*--------- Tabs ---------*/
-/* @import url('../vendor/tabs/tabs.css'); */
 
 /***
-
 ====================================================================
   Loading Transition
 ====================================================================
-
  ***/
+
 /* Preloader */
 .ctn-preloader {
 	align-items: center;
-	-webkit-align-items: center;
 	display: flex;
-	display: -ms-flexbox;
 	height: 100%;
 	justify-content: center;
-	-webkit-justify-content: center;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -207,7 +179,6 @@
 	position: absolute;
 }
 .ctn-preloader .animation-preloader .txt-loading .letters-loading {
-	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	letter-spacing: 15px;
 	display: inline-block;
@@ -339,7 +310,7 @@
 }
 /*______________________ Global style ___________________*/
 body {
-	font-family: 'CircularStd-book';
+	font-family: 'Baloo Da 2', cursive;
 	font-weight: normal;
 	color: #57667e;
 	font-size: 17px;
@@ -347,11 +318,9 @@ body {
 	top: 0 !important;
 }
 .font-lato {
-	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 }
 .font-k2d {
-	font-family: 'K2D', sans-serif !important;
 }
 .main-page-wrapper {
 	overflow-x: hidden;
@@ -569,7 +538,6 @@ body .video-button-one .icon-left {
 	margin-right: 10px;
 }
 body .theme-button-one {
-	font-family: 'CircularStdmed';
 	width: 220px;
 	line-height: 56px;
 	text-align: center;
@@ -659,7 +627,6 @@ body .line-button-two:hover,
 	box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
 }
 body .line-button-three {
-	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 14px;
@@ -693,7 +660,6 @@ body .white-shdw-button:hover {
 	box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
 }
 body .dark-button-one {
-	font-family: 'CircularStdmed';
 	line-height: 50px;
 	padding: 0 40px;
 	font-size: 16px;
@@ -1178,7 +1144,6 @@ body .line-button-three:hover,
 
 /*------------------- Theme Title ------------------*/
 .arch-title .main-title {
-	font-family: 'CircularStdbld';
 }
 .arch-title .line {
 	display: inline-block;
@@ -1787,7 +1752,6 @@ body .line-button-three:hover,
 	color: #ff605e;
 }
 #theme-banner-one .main-wrapper .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 70px;
 	line-height: 80px;
 	padding: 25px 0 35px;
@@ -1972,7 +1936,6 @@ body .line-button-three:hover,
 	max-width: 47%;
 }
 #theme-banner-two .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 60px;
 	line-height: 72px;
 	color: #fff;
@@ -2039,7 +2002,6 @@ body .line-button-three:hover,
 	height: 100%;
 }
 #theme-banner-three .main-title {
-	font-family: 'CircularStdbld';
 	font-size: 140px;
 	color: #fff;
 	text-decoration: underline;
@@ -2184,7 +2146,6 @@ body .line-button-three:hover,
 	color: #ff605e;
 }
 #theme-banner-four .main-wrapper .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 70px;
 	line-height: 80px;
 	padding: 25px 0 35px;
@@ -2334,7 +2295,6 @@ body .line-button-three:hover,
 	padding: 300px 0 215px 15%;
 }
 #theme-banner-five .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 60px;
 	line-height: 72px;
 	color: #fff;
@@ -2582,7 +2542,6 @@ body .line-button-three:hover,
 	color: #808c9f;
 }
 .agn-about-us .text-wrapper .author .name {
-	font-family: 'CircularStdmed';
 	font-size: 20px;
 	color: #233d63;
 }
@@ -3293,7 +3252,6 @@ body .line-button-three:hover,
 	padding-bottom: 95px;
 }
 .portfo-testimonial .inner-title {
-	font-family: 'CircularStdmed';
 	color: #fff;
 	font-size: 48px;
 	line-height: 65px;
@@ -3367,7 +3325,7 @@ body .line-button-three:hover,
 }
 .sass-testimonial-section:before {
 	content: 'D';
-	font-family: 'CircularStdblck';
+
 	font-size: 400px;
 	color: #fafffd;
 	position: absolute;
@@ -3428,7 +3386,6 @@ body .line-button-three:hover,
 	color: #303858;
 }
 .sass-testimonial-section .inner-container .name {
-	font-family: 'CircularStdmed';
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #303858;
@@ -3574,7 +3531,7 @@ body .line-button-three:hover,
 .apps-testimonial .d-shape {
 	position: absolute;
 	font-size: 600px;
-	font-family: 'CircularStdblck';
+
 	line-height: 420px;
 	color: #fff;
 	bottom: -60px;
@@ -3583,7 +3540,7 @@ body .line-button-three:hover,
 .apps-testimonial .u-shape {
 	position: absolute;
 	font-size: 705px;
-	font-family: 'CircularStdblck';
+
 	line-height: 420px;
 	color: #fff;
 	right: -199px;
@@ -3812,7 +3769,6 @@ body .line-button-three:hover,
 	animation: pulse 2s infinite linear;
 }
 .seo-contact-banner .d-shape {
-	font-family: 'CircularStdblck';
 	font-size: 700px;
 	position: absolute;
 	line-height: 500px;
@@ -3866,7 +3822,6 @@ body .line-button-three:hover,
 	background: #233d63;
 }
 .sass-contact-banner .u-shape {
-	font-family: 'CircularStdblck';
 	font-size: 705px;
 	position: absolute;
 	top: -500px;
@@ -3875,7 +3830,6 @@ body .line-button-three:hover,
 	z-index: -1;
 }
 .sass-contact-banner .d-shape {
-	font-family: 'CircularStdblck';
 	font-size: 700px;
 	color: #ffffff;
 	position: absolute;
@@ -4762,7 +4716,7 @@ body .line-button-three:hover,
 }
 .section-portfo .section-num {
 	position: absolute;
-	font-family: 'Lato', sans-serif;
+
 	font-weight: 100;
 	font-size: 180px;
 	color: #26294f;
@@ -5010,7 +4964,6 @@ body .line-button-three:hover,
 	transition: all 3s ease-in-out;
 }
 .skill-section-portfo .skill-bar .progress-bar .percent-text {
-	font-family: 'CircularStdmed';
 	font-size: 72px;
 	color: #fff;
 	position: absolute;
@@ -6095,7 +6048,6 @@ body .line-button-three:hover,
 	min-height: 330px;
 }
 .sass-our-pricing .single-pr-table .pr-body .feature {
-	font-family: 'CircularStdmed';
 	font-size: 20px;
 	color: #303858;
 	padding-bottom: 15px;
@@ -6688,7 +6640,6 @@ body .line-button-three:hover,
 	padding-bottom: 7px;
 }
 .theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a {
-	font-family: 'CircularStdmed';
 	display: block;
 	line-height: 45px;
 	border: 1px solid #dbdbdb;
@@ -6955,7 +6906,6 @@ body .line-button-three:hover,
 	padding: 0 90px;
 }
 #eCommerce-carousel .inner-item-wrapper .main-title {
-	font-family: 'Playfair Display', serif;
 	font-size: 130px;
 	line-height: 120px;
 	color: #19212b;
@@ -6988,7 +6938,7 @@ body .line-button-three:hover,
 	line-height: 55px;
 	display: inline-block;
 	text-align: center;
-	font-family: 'CircularStdbld';
+
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #3c3c3c;
@@ -7001,7 +6951,6 @@ body .line-button-three:hover,
 	color: #fff;
 }
 #eCommerce-carousel .inner-item-wrapper .button-group .details-info-button {
-	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	width: 65px;
 	height: 65px;
@@ -7064,7 +7013,7 @@ body .line-button-three:hover,
 }
 #eCommerce-carousel .brand-text {
 	font-size: 400px;
-	font-family: 'CircularStdblck';
+
 	color: #f8f8f8;
 	position: absolute;
 	right: -100px;
@@ -7081,7 +7030,7 @@ body .line-button-three:hover,
 }
 .eCommerce-hero-section .social-share li {
 	display: inline-block;
-	font-family: 'CircularStdmed';
+
 	font-size: 16px;
 	color: #3c3c3c;
 	text-transform: uppercase;
@@ -7115,7 +7064,6 @@ body .line-button-three:hover,
 	font-weight: normal;
 }
 .product-details-modal .main-bg-wrapper .title {
-	font-family: 'Playfair Display', serif;
 	font-size: 40px;
 	color: #19212b;
 	padding: 80px 0 30px;
@@ -7226,7 +7174,6 @@ body .line-button-three:hover,
 	transform: scale(1);
 }
 .theme-sidebar-widget .sidebar-title {
-	font-family: 'CircularStdmed';
 	font-size: 24px;
 	color: #1d1d1d;
 	padding-bottom: 30px;
@@ -7468,7 +7415,6 @@ body .line-button-three:hover,
 	margin: 0;
 }
 .theme-sidebar-widget .recent-news-item .rn-title {
-	font-family: 'CircularStdmed';
 	font-size: 20px;
 	line-height: 28px;
 	margin-bottom: 8px;
@@ -7719,7 +7665,6 @@ body .line-button-three:hover,
 }
 /*--------------------- CheckOut Page -----------------*/
 .checkout-form .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 28px;
 	color: #1d1d1d;
 	padding-bottom: 55px;
@@ -7787,7 +7732,7 @@ body .line-button-three:hover,
 }
 .checkout-form .checkbox-list li label {
 	position: relative;
-	font-family: 'CircularStdmed';
+
 	font-size: 16px;
 	line-height: 15px;
 	padding-left: 30px;
@@ -7822,7 +7767,6 @@ body .line-button-three:hover,
 	padding-bottom: 55px;
 }
 .checkout-form .other-note-area p {
-	font-family: 'CircularStdmed';
 	font-size: 16px;
 	color: #1a1a1a;
 	padding-bottom: 8px;
@@ -7845,7 +7789,6 @@ body .line-button-three:hover,
 	width: 100%;
 }
 .checkout-form .order-confirm-sheet .order-review .product-review tr {
-	font-family: 'CircularStdmed';
 }
 .checkout-form
 	.order-confirm-sheet
@@ -7893,7 +7836,7 @@ body .line-button-three:hover,
 }
 .checkout-form .order-confirm-sheet .order-review .payment-list li label {
 	position: relative;
-	font-family: 'CircularStdmed';
+
 	font-size: 18px;
 	line-height: 15px;
 	color: #1a1a1a;
@@ -7955,7 +7898,6 @@ body .line-button-three:hover,
 	display: none;
 }
 .checkout-form .credit-card-form h6 {
-	font-family: 'CircularStdmed';
 	font-size: 16px;
 	padding-bottom: 5px;
 }
@@ -7980,7 +7922,7 @@ body .line-button-three:hover,
 }
 .checkout-form .order-confirm-sheet .agreement-checkbox label {
 	position: relative;
-	font-family: 'CircularStdmed';
+
 	font-size: 16px;
 	color: #1a1a1a;
 	cursor: pointer;
@@ -8059,7 +8001,6 @@ body .line-button-three:hover,
 	background: #fff;
 }
 .solid-inner-banner .page-title {
-	font-family: 'CircularStdmed';
 	font-size: 60px;
 	color: #313131;
 	padding-bottom: 150px;
@@ -8121,7 +8062,6 @@ body .line-button-three:hover,
 	color: #ffbd3a;
 }
 .shop-details .procuct-details .product-info .price {
-	font-family: 'CircularStdmed';
 	display: block;
 	font-weight: normal;
 	font-size: 32px;
@@ -8234,7 +8174,6 @@ body .line-button-three:hover,
 	margin-bottom: 50px;
 }
 .shop-details .procuct-details .product-info .cart-button {
-	font-family: 'CircularStdmed';
 	width: 155px;
 	line-height: 46px;
 	font-size: 14px;
@@ -8249,7 +8188,6 @@ body .line-button-three:hover,
 	background: #fff;
 }
 .shop-details .procuct-details .product-info .wishlist-button {
-	font-family: 'CircularStdmed';
 	width: 190px;
 	line-height: 48px;
 	font-size: 14px;
@@ -8359,7 +8297,6 @@ body .line-button-three:hover,
 	position: relative;
 }
 .user-comment-area .single-comment .user-comment-data .name {
-	font-family: 'CircularStdmed';
 	font-size: 20px;
 	color: #3e3e3e;
 	padding-bottom: 5px;
@@ -8683,7 +8620,6 @@ body .line-button-three:hover,
 	padding: 38px 0 0 40px;
 }
 .about-us-standard .single-block .author-data .name {
-	font-family: 'CircularStdmed';
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #3e3e3e;
@@ -8819,7 +8755,6 @@ body .line-button-three:hover,
 	z-index: -1;
 }
 .theme-action-banner-two .title {
-	font-family: 'CircularStdmed';
 	font-size: 48px;
 	color: #fff;
 	padding: 0 200px;
@@ -9101,7 +9036,6 @@ body .line-button-three:hover,
 	margin-bottom: 25px;
 }
 .our-project .project-item .title span {
-	font-family: 'CircularStdmed';
 	text-decoration: underline;
 }
 #isotop-gallery-wrapper .isotop-item .hover-jojo .title a {
@@ -9156,7 +9090,6 @@ body .line-button-three:hover,
 	border-radius: 50%;
 }
 #isotop-gallery-wrapper .isotop-item .hover-jojo ul li a span {
-	font-family: 'Lato', sans-serif;
 	display: block;
 	font-weight: 300;
 	font-size: 40px;
@@ -9309,7 +9242,6 @@ body .line-button-three:hover,
 	top: 50%;
 }
 .project-with-sidebar .page-title {
-	font-family: 'CircularStdmed';
 	font-size: 60px;
 	color: #313131;
 	padding: 100px 0 80px;
@@ -9408,7 +9340,6 @@ body .line-button-three:hover,
 	margin: 0 auto;
 }
 .project-details .share-icon li {
-	font-family: 'CircularStdmed';
 	display: inline-block;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -9432,7 +9363,6 @@ body .line-button-three:hover,
 	padding-bottom: 25px;
 }
 .project-details .project-info .list-title {
-	font-family: 'CircularStdmed';
 	font-size: 20px;
 	color: #3e3e3e;
 	text-transform: uppercase;
@@ -9492,7 +9422,6 @@ body .line-button-three:hover,
 	margin: 68px 0 90px;
 }
 .project-details-agency .pd-body .sub-heading {
-	font-family: 'CircularStdmed';
 	font-size: 24px;
 	line-height: 35px;
 	color: #3e3e3e;
@@ -9658,13 +9587,11 @@ body .line-button-three:hover,
 	text-decoration: underline;
 }
 .our-blog .post-data .blog-title-one {
-	font-family: 'CircularStdmed';
 	font-size: 24px;
 	line-height: 35px;
 	color: #3e3e3e;
 }
 .our-blog .post-data .blog-title-two {
-	font-family: 'CircularStdmed';
 	font-size: 28px;
 	line-height: 40px;
 }
@@ -9705,7 +9632,6 @@ body .line-button-three:hover,
 	opacity: 1;
 }
 .our-blog .bg-solid-post.single-blog-post .post-data .title {
-	font-family: 'CircularStdmed';
 	font-size: 36px;
 	line-height: 50px;
 	margin: 0 0 38px;
@@ -9753,14 +9679,12 @@ body .line-button-three:hover,
 	padding: 270px 0 100px;
 }
 .blog-filter-title .upper-title {
-	font-family: 'CircularStdmed';
 	font-size: 16px;
 	text-transform: uppercase;
 	color: rgba(62, 62, 62, 0.3);
 	padding-bottom: 45px;
 }
 .blog-filter-title .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 60px;
 	line-height: 60px;
 	color: #313131;
@@ -9774,7 +9698,6 @@ body .line-button-three:hover,
 	margin-bottom: 80px;
 }
 .blog-filer .blog-filter-nav li {
-	font-family: 'CircularStdmed';
 	float: left;
 	width: 16.66666666%;
 	text-align: center;
@@ -9865,7 +9788,6 @@ body .line-button-three:hover,
 	left: 0;
 }
 .blog-details .post-data .bold-text {
-	font-family: 'CircularStdmed';
 	font-size: 20px;
 	line-height: 32px;
 	color: #3e3e3e;
@@ -9877,7 +9799,6 @@ body .line-button-three:hover,
 	color: #3e3e3e;
 }
 .blog-details .post-tag-area .tags li:first-child {
-	font-family: 'CircularStdmed';
 }
 .blog-details .post-tag-area .tags li a {
 	font-size: 18px;
@@ -9887,7 +9808,6 @@ body .line-button-three:hover,
 	color: #3e3e3e;
 }
 .blog-details .post-tag-area .share-icon li {
-	font-family: 'CircularStdmed';
 	display: inline-block;
 	font-size: 20px;
 	color: #3e3e3e;
@@ -9905,7 +9825,6 @@ body .line-button-three:hover,
 	padding-bottom: 10px;
 }
 .blog-details .inner-block-title {
-	font-family: 'CircularStdmed';
 	font-size: 36px;
 	color: #3e3e3e;
 	padding-bottom: 28px;
@@ -9922,7 +9841,6 @@ body .line-button-three:hover,
 	margin-left: 100px;
 }
 .blog-details .user-comment-area .single-comment .reply {
-	font-family: 'CircularStdmed';
 	width: 70px;
 	height: 30px;
 	border: 2px solid #e7e7e7;
@@ -9990,7 +9908,6 @@ body .line-button-three:hover,
 	margin-bottom: 30px;
 }
 .blog-details .blog-hero-banner .blog-title {
-	font-family: 'CircularStdmed';
 	font-size: 48px;
 	line-height: 55px;
 	color: #fff;
@@ -10009,7 +9926,6 @@ body .line-button-three:hover,
 	background: #fff;
 }
 .blog-details-fg .blog-fg-data .post-data .sub-heading {
-	font-family: 'CircularStdmed';
 	font-size: 28px;
 	color: #3d3d3d;
 	padding: 30px 0 25px;
@@ -10163,7 +10079,6 @@ body .line-button-three:hover,
 	padding-left: 100px;
 }
 .contact-us-section .contact-info .title {
-	font-family: 'CircularStdmed';
 	font-size: 42px;
 	line-height: 55px;
 	color: #3e3e3e;
@@ -10280,7 +10195,6 @@ body .line-button-three:hover,
 	color: #fff;
 }
 .form-style-three .send-button {
-	font-family: 'CircularStdmed';
 	width: 193px;
 	line-height: 51px;
 	border: 2px solid #fff;
@@ -10488,7 +10402,6 @@ body .line-button-three:hover,
 	color: #fff;
 }
 .project-creative .slide__title {
-	font-family: 'CircularStdmed';
 	color: #fff;
 }
 .project-creative .slide__number::before {
@@ -10546,7 +10459,6 @@ body .line-button-three:hover,
 	margin: 0 1rem 0 0;
 }
 .project-creative .content__title {
-	font-family: 'CircularStdblck';
 	margin: 10px 0;
 	font-size: 40px;
 	color: #212121;
@@ -11189,7 +11101,6 @@ body .line-button-three:hover,
 	padding: 265px 0 150px;
 }
 .breadcrumbs-two .page-title {
-	font-family: 'CircularStdmed';
 	font-size: 55px;
 	color: #313131;
 }
@@ -11212,7 +11123,6 @@ body .line-button-three:hover,
 	z-index: 1;
 }
 .breadcrumbs-three .page-title {
-	font-family: 'CircularStdmed';
 	font-size: 60px;
 	padding-bottom: 15px;
 }
@@ -11235,7 +11145,6 @@ body .line-button-three:hover,
 	z-index: 1;
 }
 .breadcrumbs-four .page-title {
-	font-family: 'CircularStdmed';
 	font-size: 55px;
 }
 .breadcrumbs-four .page-breadcrumbs li {
@@ -11264,7 +11173,6 @@ body .line-button-three:hover,
 }
 /*-------------------- List Item -------------------*/
 .theme-list-item li {
-	font-family: 'Rubik', sans-serif;
 	line-height: 44px;
 	color: #777777;
 	position: relative;
@@ -11870,7 +11778,6 @@ Modal animation
 	padding-bottom: 7px;
 }
 .shrt-menu .main-header .cart-action-wrapper .button-group a {
-	font-family: 'CircularStdmed';
 	display: block;
 	line-height: 45px;
 	border: 1px solid #dbdbdb;
@@ -12310,7 +12217,6 @@ Modal animation
 	letter-spacing: 1.4px;
 }
 #arch-carousel .inner-item-wrapper .main-title {
-	font-family: 'CircularStdmed';
 	font-size: 78px;
 	line-height: 82px;
 	color: #191919;
@@ -12449,7 +12355,6 @@ Modal animation
 	padding: 10px 0 55px;
 }
 .arch-modal .main-bg-wrapper p {
-	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	line-height: 30px;
 	margin-bottom: 30px;
@@ -12543,7 +12448,7 @@ Modal animation
 	bottom: -110px;
 	left: -110px;
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+
 	text-transform: uppercase;
 	font-size: 20px;
 	text-align: center;
@@ -12559,7 +12464,7 @@ Modal animation
 }
 .arch-project-gallery .isotop-menu-wrapper li {
 	display: inline-block;
-	font-family: 'Lato', sans-serif;
+
 	font-size: 18px;
 	color: #bfbfbf;
 	margin: 5px 25px;
@@ -12731,7 +12636,6 @@ Modal animation
 	padding-left: 50px;
 }
 .arch-contact .form-wrapper .contact-text .main-title {
-	font-family: 'CircularStdmed';
 }
 .arch-contact .form-wrapper .contact-text p {
 	font-size: 20px;
@@ -12766,7 +12670,6 @@ Modal animation
 	padding: 0 0 25px;
 }
 .theme-footer-one.arch-footer .top-footer .footer-list ul li a {
-	font-family: 'Lato', sans-serif;
 	color: #9e9e9e;
 }
 .arch-footer .top-footer .email {
@@ -12778,7 +12681,6 @@ Modal animation
 	margin: 15px 0 0;
 }
 .theme-footer-one.arch-footer .bottom-footer {
-	font-family: 'Lato', sans-serif;
 	border: none;
 	padding-top: 0;
 	margin-top: 55px;
@@ -12822,7 +12724,6 @@ Modal animation
 }
 .op-menu-one .ct-language__dropdown li {
 	display: inline-block;
-	font-family: 'K2D', sans-serif;
 	font-size: 24px;
 }
 .op-menu-one .ct-language__dropdown li a {
@@ -12996,7 +12897,6 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
 	color: #3d3f42;
 }
 #op-hero-one .carousel-inner h2 {
-	font-family: 'Playfair Display', serif;
 	font-size: 520px;
 	color: #fff;
 	position: absolute;
@@ -13128,7 +13028,7 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
 	top: -215px;
 	right: 0;
 	z-index: 1;
-	font-family: 'Playfair Display', serif;
+
 	font-weight: 700;
 	font-size: 380px;
 	color: #161616;
@@ -13139,7 +13039,7 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
 	right: 0;
 	width: 100%;
 	text-align: center;
-	font-family: 'Playfair Display', serif;
+
 	font-weight: 700;
 	font-size: 390px;
 	color: #fdfbf6;
@@ -13221,7 +13121,6 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
 	background: #10c7ff;
 }
 .op-project-one #isotop-gallery-wrapper .item-content .text .read-more {
-	font-family: 'Lato', sans-serif;
 	display: block;
 	font-weight: 300;
 	font-size: 55px;
@@ -13268,7 +13167,6 @@ html[lang='ru'] .op-menu-one .ct-language__dropdown li a[data-lang='ru'] {
 	padding: 200px 0 180px;
 }
 .op-services-one .title-text {
-	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	font-size: 290px;
 	color: #2c2c2c;
