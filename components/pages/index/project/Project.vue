@@ -5,8 +5,7 @@
 	>
 		<section-number :number="4" />
 		<div class="container">
-			<h2 class="theme-title-two">Projects<span>.</span></h2>
-
+			<section-title title="Projects" />
 			<ul class="isotop-menu-wrapper hide-pr" :class="{ 'show-pr': visiable }">
 				<li class="is-checked" data-filter="*">Design.</li>
 				<li data-filter=".development">Development.</li>
@@ -36,11 +35,12 @@
 </template>
 
 <script>
+import SectionTitle from '~/components/pages/index/global/SectionTitle.vue'
 import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 import ProjectGallery from '~/components/pages/index/project/ProjectGallery.vue'
 
 export default {
-	components: { SectionNumber, ProjectGallery },
+	components: { SectionTitle, SectionNumber, ProjectGallery },
 	data: () => ({ visiable: false }),
 	methods: {
 		visibilityChanged(visiable, entry) {

@@ -2,7 +2,7 @@
 	<div class="about-me-portfo section-portfo">
 		<b-container class="p-0">
 			<div class="inner-content">
-				<h2 class="theme-title-two">About me<span>.</span></h2>
+				<section-title title="About me" />
 				<div
 					v-observe-visibility="visibilityChanged"
 					class="img-box hide-pr"
@@ -22,9 +22,10 @@
 
 <script>
 import AboutTabs from '~/components/pages/index/about/AboutTabs.vue'
+import SectionTitle from '~/components/pages/index/global/SectionTitle.vue'
 
 export default {
-	components: { AboutTabs },
+	components: { AboutTabs, SectionTitle },
 	data: () => ({ visiable: false }),
 	methods: {
 		visibilityChanged(visiable, entry) {

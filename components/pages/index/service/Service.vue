@@ -3,7 +3,7 @@
 		<section-number :number="3" />
 		<div class="container">
 			<div class="title-wrapper">
-				<h2 class="theme-title-two">Services<span>.</span></h2>
+				<section-title title="Services" />
 				<p>
 					Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant
 					deleniti
@@ -30,10 +30,11 @@
 
 <script>
 import ServiceItem from '~/components/pages/index/service/ServiceItem.vue'
+import SectionTitle from '~/components/pages/index/global/SectionTitle.vue'
 import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 
 export default {
-	components: { ServiceItem, SectionNumber },
+	components: { ServiceItem, SectionTitle, SectionNumber },
 	data: () => ({
 		items: [
 			{

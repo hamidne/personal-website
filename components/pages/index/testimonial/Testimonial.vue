@@ -2,8 +2,7 @@
 	<div class="portfo-testimonial section-portfo">
 		<section-number :number="5" />
 		<div class="container clearfix">
-			<h2 class="theme-title-two">Testimonials<span>.</span></h2>
-
+			<section-title title="Testimonials" />
 			<b-row class="row">
 				<b-col lg="4">
 					<h2 class="inner-title">
@@ -21,11 +20,12 @@
 </template>
 
 <script>
+import SectionTitle from '~/components/pages/index/global/SectionTitle.vue'
 import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 import TestimonialSlider from '~/components/pages/index/testimonial/TestimonialSlider.vue'
 
 export default {
-	components: { SectionNumber, TestimonialSlider },
+	components: { SectionTitle, SectionNumber, TestimonialSlider },
 }
 </script>
 
