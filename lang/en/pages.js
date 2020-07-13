@@ -8,5 +8,8 @@ export default {
 				'Landing Page<i>.</i>',
 			],
 		},
+		about: {
+			title: 'About me',
+		},
 	},
 }

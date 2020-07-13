@@ -2,7 +2,7 @@
 	<div class="about-me-portfo section-portfo">
 		<b-container class="p-0">
 			<div class="inner-content">
-				<section-title title="About me" />
+				<section-title :title="$t('pages.index.about.title')" />
 				<div
 					v-observe-visibility="visibilityChanged"
 					class="img-box hide-pr"
