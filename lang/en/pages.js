@@ -24,6 +24,8 @@ export default {
 					description: `<p>Sed ut perspiciatis<span>unde omnis iste natus error sit</span> voluptatem accusantium	doloremque laudantium, totam rem aperiam.</p><ul class="skill-list"><li>Web Designing _<span>HTML/CSS</span></li><li>Graphic Design. _<span>UI/UX</span></li><li>Web Development. _<span>WORDPRESS/PHP</span></li><li>Application Dev. _<span>ANDROID/ IOS</span></li></ul>`,
 				},
 			],
+			download: 'Download CV.',
+			hire: 'Hire Me',
 		},
 	},
 }

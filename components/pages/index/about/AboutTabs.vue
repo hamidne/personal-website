@@ -16,8 +16,20 @@
 		</b-tabs>
 		<div class="profile-tab">
 			<ul class="button-group">
-				<li><a href="#" class="download-button">Download CV.</a></li>
-				<li><a href="#" class="hire-button">Hire Me</a></li>
+				<li>
+					<a
+						href="#"
+						class="download-button"
+						v-text="$t('pages.index.about.download')"
+					/>
+				</li>
+				<li>
+					<a
+						href="#"
+						class="hire-button"
+						v-text="$t('pages.index.about.hire')"
+					/>
+				</li>
 			</ul>
 		</div>
 	</div>
