@@ -20,9 +20,12 @@
 						class="nav-item dropdown"
 					>
 						<a
-							href="index.html"
+							v-scroll-to="{
+								el: item.target,
+								duration: 1000,
+								offset: -50,
+							}"
 							class="nav-link dropdown-toggle"
-							data-toggle="dropdown"
 							v-text="item.title"
 						/>
 					</li>
