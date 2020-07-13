@@ -39,5 +39,36 @@ export default {
 				{ title: 'Photoshop.', filter: '.photoshop' },
 			],
 		},
+		service: {
+			title: 'Services',
+			description:
+				'Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant deleniti',
+			items: [
+				{
+					title: 'Front-End & Responsive Coding.',
+					description:
+						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
+					icon: '',
+				},
+				{
+					title: 'User Experience & Interface Design.',
+					description:
+						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
+					icon: '',
+				},
+				{
+					title: 'Social Media & Online Marketing.',
+					description:
+						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
+					icon: '',
+				},
+				{
+					title: 'Mobile Application & Game Development.',
+					description:
+						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
+					icon: '',
+				},
+			],
+		},
 	},
 }

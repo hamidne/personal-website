@@ -3,16 +3,13 @@
 		<section-number :number="3" />
 		<div class="container">
 			<div class="title-wrapper">
-				<section-title title="Services" />
-				<p>
-					Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant
-					deleniti
-				</p>
+				<section-title :title="$t('pages.index.service.title')" />
+				<p v-text="$t('pages.index.service.description')" />
 			</div>
 
 			<b-row>
 				<b-col
-					v-for="(item, index) in items"
+					v-for="(item, index) in $t('pages.index.service.items')"
 					:key="index"
 					lg="6"
 					data-aos="flip-right"
@@ -35,35 +32,5 @@ import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 
 export default {
 	components: { ServiceItem, SectionTitle, SectionNumber },
-	data: () => ({
-		items: [
-			{
-				title: 'Front-End & Responsive Coding.',
-				description:
-					'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-				icon: '',
-			},
-			{
-				title: 'User Experience & Interface Design.',
-				description:
-					'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-				icon: '',
-			},
-			{
-				title: 'Social Media & Online Marketing.',
-				description:
-					'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-				icon: '',
-			},
-			{
-				title: 'Mobile Application & Game Development.',
-				description:
-					'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-				icon: '',
-			},
-		],
-	}),
 }
 </script>
-
-<style lang="scss" scoped></style>
