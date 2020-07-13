@@ -16,4 +16,17 @@ export default {
 			},
 		],
 	},
+	footer: {
+		title: 'Contact Us',
+		description: 'Send me a message, I will be touch with you shortly.',
+		socials: [
+			{ icon: 'fab fa-facebook-f', href: '' },
+			{ icon: 'fab fa-github', href: 'https://github.com/hamidne' },
+			{
+				icon: 'fab fa-linkedin-in',
+				href: 'https://www.linkedin.com/in/hamidne',
+			},
+		],
+		copyRight: '© Built with Love By HamidNE.',
+	},
 }

@@ -10,17 +10,15 @@
 				class="theme-title-one text-center hide-pr"
 				:class="{ 'show-pr': visiable }"
 			>
-				<div class="upper-title">Contact Us</div>
-				<h2 class="main-title">
-					Send me a message, I will be touch <br />with you shortly.
-				</h2>
+				<div class="upper-title" v-text="$t('layouts.footer.title')" />
+				<h2 class="main-title" v-text="$t('layouts.footer.description')" />
 			</div>
 
 			<footer-form />
 
 			<div class="copyright-text">
 				<footer-socials />
-				<p>&copy; Built with Love By HamidNE.</p>
+				<p v-text="$t('layouts.footer.copyRight')" />
 			</div>
 		</div>
 	</footer>
