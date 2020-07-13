@@ -1,5 +1,5 @@
 <template>
-	<b-form action="#">
+	<b-form @submit.prevent="">
 		<b-row>
 			<b-col lg="6">
 				<div class="input-group">
