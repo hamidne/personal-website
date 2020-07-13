@@ -1,16 +1,12 @@
 <template>
 	<ul class="social-icon">
-		<li>
-			<a href="#"><i class="fab fa-facebook-f" aria-hidden="true" /></a>
-		</li>
-		<li>
-			<a href="#"><i class="fab fa-dribbble" aria-hidden="true" /></a>
-		</li>
-		<li>
-			<a href="#"><i class="fab fa-linkedin-in" aria-hidden="true" /></a>
-		</li>
-		<li>
-			<a href="#"><i class="fab fa-github-alt" aria-hidden="true" /></a>
+		<li v-for="(item, index) in $t('layouts.footer.socials')" :key="index">
+			<a
+				:href="item.href"
+				class="d-flex align-items-center justify-content-center"
+			>
+				<i :class="item.icon" aria-hidden="true" />
+			</a>
 		</li>
 	</ul>
 </template>
