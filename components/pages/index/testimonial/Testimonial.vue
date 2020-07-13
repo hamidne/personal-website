@@ -2,13 +2,13 @@
 	<div class="portfo-testimonial section-portfo">
 		<section-number :number="5" />
 		<div class="container clearfix">
-			<section-title title="Testimonials" />
+			<section-title :title="$t('pages.index.testimonial.title')" />
 			<b-row class="row">
 				<b-col lg="4">
-					<h2 class="inner-title">
-						What’s <br />
-						Our Client Say About Us.
-					</h2>
+					<h2
+						class="inner-title"
+						v-text="$t('pages.index.testimonial.description')"
+					/>
 				</b-col>
 
 				<b-col lg="8">

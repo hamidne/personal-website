@@ -79,5 +79,25 @@ export default {
 				{ title: 'Application Dev.', category: 'ANDROID/IOS', percent: 50 },
 			],
 		},
+		testimonial: {
+			title: 'Testimonials',
+			description: 'What’s Our Client Say About Us.',
+			items: [
+				{
+					author: 'Rashed kabir',
+					position: 'Designer',
+					image: 'images/home/2.jpg',
+					description:
+						'Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere.',
+				},
+				{
+					author: 'Zubayer hasan',
+					position: 'Developer',
+					image: 'images/home/2.jpg',
+					description:
+						'Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere.',
+				},
+			],
+		},
 	},
 }
