@@ -19,6 +19,13 @@ export default {
 	footer: {
 		title: 'Contact Us',
 		description: 'Send me a message, I will be touch with you shortly.',
+		form: {
+			name: 'Your Name',
+			email: 'Your Email Address',
+			subject: 'Your Subject',
+			message: 'Your Message',
+			send: 'Send Message',
+		},
 		socials: [
 			{ icon: 'fab fa-facebook-f', href: '' },
 			{ icon: 'fab fa-github', href: 'https://github.com/hamidne' },
