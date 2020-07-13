@@ -70,5 +70,14 @@ export default {
 				},
 			],
 		},
+		skill: {
+			title: 'Experties',
+			items: [
+				{ title: 'Web Designing', category: 'HTML/CSS', percent: 80 },
+				{ title: 'Graphic Design.', category: 'UI/UX', percent: 75 },
+				{ title: 'Web Development', category: 'WORDPRESS/PHP', percent: 75 },
+				{ title: 'Application Dev.', category: 'ANDROID/IOS', percent: 50 },
+			],
+		},
 	},
 }
