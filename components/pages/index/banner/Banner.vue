@@ -4,10 +4,10 @@
 			<div class="main-wrapper">
 				<h1 class="main-title wow fadeInUp animated" data-wow-delay="0.2s">
 					<span class="cd-headline clip">
-						<span>I Am Hamid Develope Quality</span>
+						<span v-text="$t('pages.index.banner.title')" />
 						<vue-typed-js
 							class="font-weight-semi-bold"
-							:strings="strings"
+							:strings="$t('pages.index.banner.strings')"
 							:loop="true"
 							:type-speed="40"
 							:back-speed="20"
@@ -22,13 +22,3 @@
 		</div>
 	</div>
 </template>
-
-<script>
-export default {
-	data: () => ({
-		strings: ['Website<i>.</i>', 'Mobile App<i>.</i>', 'Landing Page<i>.</i>'],
-	}),
-}
-</script>
-
-<style lang="scss" scoped></style>

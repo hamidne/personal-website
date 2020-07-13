@@ -1,4 +1,5 @@
 import css from './configs/css'
+import i18n from './configs/i18n'
 import head from './configs/head'
 import build from './configs/build'
 import modules from './configs/modules'
@@ -10,6 +11,7 @@ export default {
 	target: 'static',
 
 	css,
+	i18n,
 	head,
 	build,
 	modules,

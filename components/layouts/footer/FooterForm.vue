@@ -1,46 +1,37 @@
 <template>
-	<form action="#">
-		<div class="row">
-			<div class="col-lg-6">
+	<b-form @submit.prevent="">
+		<b-row>
+			<b-col lg="6">
 				<div class="input-group">
 					<input type="text" required />
-					<label>Your Name</label>
+					<label v-text="$t('layouts.footer.form.name')" />
 				</div>
-				<!-- /.input-group -->
-			</div>
-			<!-- /.col- -->
-			<div class="col-lg-6">
+			</b-col>
+			<b-col lg="6">
 				<div class="input-group">
 					<input type="email" required />
-					<label>Your Email Address</label>
+					<label v-text="$t('layouts.footer.form.email')" />
 				</div>
-				<!-- /.input-group -->
-			</div>
-			<!-- /.col- -->
-			<div class="col-12">
+			</b-col>
+			<b-col cols="12">
 				<div class="input-group">
 					<input type="text" required />
-					<label>Your Subject</label>
+					<label v-text="$t('layouts.footer.form.subject')" />
 				</div>
-				<!-- /.input-group -->
-			</div>
-			<!-- /.col- -->
-			<div class="col-12">
+			</b-col>
+			<b-col cols="12">
 				<div class="input-group">
 					<textarea required></textarea>
-					<label>Your Message</label>
+					<label v-text="$t('layouts.footer.form.message')" />
 				</div>
-				<!-- /.input-group -->
-			</div>
-			<!-- /.col- -->
-			<div class="col-12">
+			</b-col>
+			<b-col cols="12">
 				<div class="clearfix">
-					<button class="send-button">Send Message</button>
+					<button class="send-button" v-text="$t('layouts.footer.form.send')" />
 				</div>
-			</div>
-		</div>
-		<!-- /.row -->
-	</form>
+			</b-col>
+		</b-row>
+	</b-form>
 </template>
 
 <script>

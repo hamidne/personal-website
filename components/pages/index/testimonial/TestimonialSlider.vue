@@ -2,36 +2,17 @@
 	<div class="slider-wrapper">
 		<div class="agn-testimonial-slider">
 			<swiper :options="swiperOptions">
-				<swiper-slide>
+				<swiper-slide
+					v-for="(item, index) in $t('pages.index.testimonial.items')"
+					:key="index"
+				>
 					<div class="item">
-						<p>
-							Having a home based business is a wonderful asset to your life.
-							The problem still stands, when it comes timeadvertise your
-							business for a cheap cost. I know you have looked for to answer
-							everywhere.
-						</p>
+						<p v-text="item.description" />
 						<div class="author-info clearfix">
-							<img src="images/home/2.jpg" alt="" class="author-img" />
+							<img :src="item.image" alt="" class="author-img" />
 							<div class="name-info">
-								<h6 class="name">Rashed kabir</h6>
-								<span>Designer</span>
-							</div>
-						</div>
-					</div>
-				</swiper-slide>
-				<swiper-slide>
-					<div class="item">
-						<p>
-							Having a home based business is a wonderful asset to your life.
-							The problem still stands, when it comes timeadvertise your
-							business for a cheap cost. I know you have looked for to answer
-							everywhere.
-						</p>
-						<div class="author-info clearfix">
-							<img src="images/home/3.jpg" alt="" class="author-img" />
-							<div class="name-info">
-								<h6 class="name">Zubayer hasan</h6>
-								<span>Developer</span>
+								<h6 class="name" v-text="item.author" />
+								<span v-text="item.position" />
 							</div>
 						</div>
 					</div>

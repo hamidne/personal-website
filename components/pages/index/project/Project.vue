@@ -5,29 +5,27 @@
 	>
 		<section-number :number="4" />
 		<div class="container">
-			<section-title title="Projects" />
+			<section-title :title="$t('pages.index.project.title')" />
 			<ul class="isotop-menu-wrapper hide-pr" :class="{ 'show-pr': visiable }">
-				<li class="is-checked" data-filter="*">Design.</li>
-				<li data-filter=".development">Development.</li>
-				<li data-filter=".marketing">Marketing.</li>
-				<li data-filter=".photoshop">Photoshop.</li>
+				<li
+					v-for="(tab, index) in $t('pages.index.project.tabs')"
+					:key="index"
+					:data-filter="tab.filter"
+					v-text="tab.title"
+				/>
 			</ul>
 		</div>
 		<div class="text-content">
 			<div class="container">
-				<p>
-					Die CI Farben von Millhaus sind schwarz . Nett aber auch herausfoernd.
-					Anfangs probierten, uns abert z.
-				</p>
+				<p v-text="$t('pages.index.project.description')" />
 			</div>
 			<a
 				href="project-full-width.html"
 				class="gallery-button"
 				data-aos="fade-left"
 				data-aos-duration="2000"
-			>
-				View Gallery
-			</a>
+				v-text="$t('pages.index.project.gallery')"
+			/>
 		</div>
 
 		<project-gallery />
