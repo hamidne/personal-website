@@ -1,51 +1,18 @@
 <template>
 	<b-container>
-		<div
+		<project-item
 			v-for="(item, index) in $t('pages.index.project.items')"
 			:key="index"
-			class="project-item position-relative mt-5 p-5"
-			data-aos="fade-up"
-		>
-			<div class="project-item__title d-flex align-items-center">
-				<h4 class="title text-white" v-text="item.title" />
-				<span class="mx-2">-</span>
-				<h5 class="text-white-50" v-text="item.subtitle"></h5>
-			</div>
-			<span class="text-white-50" v-text="item.time" />
-			<p v-text="item.description" />
-		</div>
+			:item="item"
+		/>
 	</b-container>
 </template>
 
 <script>
-export default {}
+import ProjectItem from '~/components/pages/index/project/ProjectItem.vue'
+export default {
+	components: { ProjectItem },
+}
 </script>
 
-<style lang="scss" scoped>
-.project-item {
-	z-index: 1;
-	background: #202245;
-	&:hover {
-		&::before {
-			transform: scale(1, 1);
-		}
-	}
-	&::before {
-		content: '';
-		top: 0;
-		z-index: -1;
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		transform: scale(1, 0);
-		transition: all 0.4s ease-in-out;
-		&:dir(ltr) {
-			left: 0;
-			border-left: 3px solid #e1a34c;
-		}
-	}
-}
-.project-item__title > .title {
-	font-weight: 600;
-}
-</style>
+<style lang="scss" scoped></style>
