@@ -33,10 +33,10 @@ export default {
 				'Die CI Farben von Millhaus sind schwarz . Nett aber auch herausfoernd. Anfangs probierten, uns abert z.',
 			gallery: 'View Gallery',
 			tabs: [
-				{ title: 'Design.', filter: '*' },
-				{ title: 'Development.', filter: '.development' },
-				{ title: 'Marketing.', filter: '.marketing' },
-				{ title: 'Photoshop.', filter: '.photoshop' },
+				{ title: 'Recent.', filter: 'recent' },
+				{ title: 'OpenSource.', filter: 'openSource' },
+				{ title: 'Medium.', filter: 'medium' },
+				{ title: 'Small.', filter: 'small' },
 			],
 			items: [
 				{

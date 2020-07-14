@@ -15,15 +15,6 @@
 				/>
 			</ul>
 		</div>
-		<div class="text-content">
-			<a
-				href="project-full-width.html"
-				class="gallery-button"
-				data-aos="fade-left"
-				data-aos-duration="2000"
-				v-text="$t('pages.index.project.gallery')"
-			/>
-		</div>
 
 		<project-items />
 	</div>
