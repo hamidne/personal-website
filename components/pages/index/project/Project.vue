@@ -28,17 +28,17 @@
 			/>
 		</div>
 
-		<project-gallery />
+		<project-items />
 	</div>
 </template>
 
 <script>
 import SectionTitle from '~/components/pages/index/global/SectionTitle.vue'
+import ProjectItems from '~/components/pages/index/project/ProjectItems.vue'
 import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
-import ProjectGallery from '~/components/pages/index/project/ProjectGallery.vue'
 
 export default {
-	components: { SectionTitle, SectionNumber, ProjectGallery },
+	components: { SectionTitle, SectionNumber, ProjectItems },
 	data: () => ({ visiable: false }),
 	methods: {
 		visibilityChanged(visiable, entry) {
