@@ -1,22 +1,10 @@
 <template>
-	<div
-		v-observe-visibility="visibilityChanged"
-		class="section-portfo our-project-portfo"
-	>
+	<div class="section-portfo our-project-portfo">
 		<section-number :number="4" />
 		<div class="container">
 			<section-title :title="$t('pages.index.project.title')" />
-			<ul class="isotop-menu-wrapper hide-pr" :class="{ 'show-pr': visiable }">
-				<li
-					v-for="(tab, index) in $t('pages.index.project.tabs')"
-					:key="index"
-					:data-filter="tab.filter"
-					v-text="tab.title"
-				/>
-			</ul>
+			<project-items />
 		</div>
-
-		<project-items />
 	</div>
 </template>
 
@@ -27,12 +15,6 @@ import SectionNumber from '~/components/pages/index/global/SectionNumber.vue'
 
 export default {
 	components: { SectionTitle, SectionNumber, ProjectItems },
-	data: () => ({ visiable: false }),
-	methods: {
-		visibilityChanged(visiable, entry) {
-			this.visiable = visiable
-		},
-	},
 }
 </script>
 
