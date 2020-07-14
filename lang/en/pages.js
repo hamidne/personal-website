@@ -38,6 +38,79 @@ export default {
 				{ title: 'Marketing.', filter: '.marketing' },
 				{ title: 'Photoshop.', filter: '.photoshop' },
 			],
+			items: [
+				{
+					title: 'Railive',
+					time: 'Mar 2020 – Present',
+					description:
+						'RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website.',
+				},
+				{
+					title: 'Gerama Music Application',
+					time: 'Jun 2019 – Feb 2020',
+					description:
+						'Creating a crawler robot to scrapping music related sites and automatically generate music content and albums.',
+				},
+				{
+					title: 'TarHan Platform',
+					time: 'Jun 2017 – Feb 2020',
+					description:
+						'A massive project to build a design and printing platform.',
+				},
+				{
+					title: 'IranGFX content factory',
+					time: 'Dec 2019 – Feb 2020',
+					description:
+						'Creating an automated content production app for IranGFX site.',
+				},
+				{
+					title: 'OpenGate',
+					time: 'Aug 2019 – Feb 2020',
+					description:
+						"Front-end developer and consultant on building a doctor's office management project with the OpenGate team.",
+				},
+				{
+					title: 'CafiMafi Shop',
+					time: 'Jan 2019 – Aug 2019',
+					description: 'Online Coffee Store',
+				},
+				{
+					title: 'Fanous Cultural Complex',
+					time: 'Oct 2017 – Mar 2018',
+					description:
+						'Web Project for Travel Management and Accounting for the Fanous Cultural Complex.',
+				},
+				{
+					title: "Fatemioun's Family Loan",
+					time: 'Oct 2017 – Feb 2018',
+					description:
+						"Web-Based Project for Managing and Accounting for Fatemioun's Family Loan. It is written in PHP and the Laravel framework using the CSS Framework Semantic UI.",
+				},
+				{
+					title: 'Mail Application',
+					time: 'Jun 2016 – Jun 2016',
+					description:
+						'A Socket Programming-based project, with ++ c, should connect multiple clients simultaneously with the server. In this project, we used Library SDL for ++ C to create the UI in the client, and we also used the material design philosophy to create a graphical look.',
+				},
+				{
+					title: 'Auto Desk Inventor Add-ons',
+					time: 'Feb 2015 – Mar 2016',
+					description:
+						'An in-depth development project developed by the Inventor engineering software to create plugins to increase the speed of manufacturing and manufacturing of industrial components. This project is due to the fact that in Iran and even in the world people are a bit fluent in this technology and can completely personalize software engineering and take activities that may take normal time-consuming time in one Click to implement.',
+				},
+				{
+					title: 'Plate recognition',
+					time: 'Mar 2016 – Mar 2016',
+					description:
+						'A university project in ++ c is used to recognize the plaque in the image and read the full license plate number, and is used to process the image from Library OpenCV, Google Tesseract.',
+				},
+				{
+					title: 'University Restaurant Project',
+					time: 'Dec 2015 – Jan 2016',
+					description:
+						'One of the development projects that we had to write with the C ++ system was the CMS.',
+				},
+			],
 		},
 		service: {
 			title: 'Services',

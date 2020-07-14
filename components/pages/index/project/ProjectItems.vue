@@ -1,33 +1,26 @@
 <template>
 	<b-container>
-		<div v-for="(item, index) in items" :key="index" class="project-item">
+		<div
+			v-for="(item, index) in $t('pages.index.project.items')"
+			:key="index"
+			class="project-item position-relative mt-5 p-5"
+		>
 			<img src="images/icon/icon18.svg" alt="" class="icon" />
-			<h5 class="title">
-				<a href="#" v-text="item.title" />
-			</h5>
+			<h4 class="title text-white" v-text="item.title" />
+			<span class="text-white-50" v-text="item.time" />
 			<p v-text="item.description" />
-			<a href="#" class="read-more">
-				<i class="fal fa-long-arrow-right" />
-			</a>
 		</div>
 	</b-container>
 </template>
 
 <script>
-export default {
-	data: () => ({
-		items: [{ title: 'asdasd', description: 'asdasdas' }],
-	}),
-}
+export default {}
 </script>
 
 <style lang="scss" scoped>
 .project-item {
-	background: #202245;
-	position: relative;
-	padding: 50px 80px 40px 70px;
-	margin-top: 70px;
 	z-index: 1;
+	background: #202245;
 	&:hover {
 		&::before {
 			transform: scale(1, 1);
