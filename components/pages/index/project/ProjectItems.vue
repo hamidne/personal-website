@@ -4,9 +4,13 @@
 			v-for="(item, index) in $t('pages.index.project.items')"
 			:key="index"
 			class="project-item position-relative mt-5 p-5"
+			data-aos="fade-up"
 		>
-			<img src="images/icon/icon18.svg" alt="" class="icon" />
-			<h4 class="title text-white" v-text="item.title" />
+			<div class="project-item__title d-flex align-items-center">
+				<h4 class="title text-white" v-text="item.title" />
+				<span class="mx-2">-</span>
+				<h5 class="text-white-50" v-text="item.subtitle"></h5>
+			</div>
 			<span class="text-white-50" v-text="item.time" />
 			<p v-text="item.description" />
 		</div>
@@ -40,5 +44,8 @@ export default {}
 			border-left: 3px solid #e1a34c;
 		}
 	}
+}
+.project-item__title > .title {
+	font-weight: 600;
 }
 </style>

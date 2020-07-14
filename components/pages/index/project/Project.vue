@@ -16,9 +16,6 @@
 			</ul>
 		</div>
 		<div class="text-content">
-			<div class="container">
-				<p v-text="$t('pages.index.project.description')" />
-			</div>
 			<a
 				href="project-full-width.html"
 				class="gallery-button"
