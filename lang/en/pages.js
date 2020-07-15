@@ -13,7 +13,7 @@ export default {
 			tabs: [
 				{
 					title: 'Myself.',
-					description: `Hello! I’m Rashedul Kabir a self-taught & award winning Digital Designer & Developer with over five years work experience. I started in my children’s room, got pro at renowned digital agencies akij co and nork blue lebel. Now I’m based in Dhaka, Bangladesh, working for Apple fredmansky and enjoying the life in the countryside.`,
+					description: `Hello, I am Hamid. Full-time programmer and interested in up-to-date and complex topics of software engineering, I have been working and learning as a full-time programmer for more than 5 years. I started programming with the great C++ language and have been specializing in the web for over 4 years. I am very interested in working in new fields. From site design and programmer to server management and config topics and its advanced issues.`,
 				},
 				{
 					title: 'Education.',
@@ -33,10 +33,107 @@ export default {
 				'Die CI Farben von Millhaus sind schwarz . Nett aber auch herausfoernd. Anfangs probierten, uns abert z.',
 			gallery: 'View Gallery',
 			tabs: [
-				{ title: 'Design.', filter: '*' },
-				{ title: 'Development.', filter: '.development' },
-				{ title: 'Marketing.', filter: '.marketing' },
-				{ title: 'Photoshop.', filter: '.photoshop' },
+				{ title: 'Recent.', filter: 'recent' },
+				{ title: 'FrontEnd.', filter: 'frontend' },
+				{ title: 'FullStack.', filter: 'fullstack' },
+				{ title: 'All.', filter: null },
+			],
+			items: [
+				{
+					title: 'Railive',
+					subtitle: 'Online video platform',
+					time: 'Mar 2020 – Present',
+					tags: ['recent', 'frontend'],
+					description:
+						'RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website.',
+				},
+				{
+					title: 'Gerama',
+					subtitle: 'Music application',
+					time: 'Jun 2019 – Feb 2020',
+					tags: ['recent', 'fullstack'],
+					description:
+						'Creating a crawler robot to scrapping music related sites and automatically generate music content and albums.',
+				},
+				{
+					title: 'TarHan',
+					subtitle: 'Online graphic platform',
+					time: 'Jun 2017 – Feb 2020',
+					tags: ['frontend'],
+					description:
+						'A massive project to build a design and printing platform.',
+				},
+				{
+					title: 'IranGFX',
+					subtitle: 'Graphic store',
+					time: 'Dec 2019 – Feb 2020',
+					tags: ['recent', 'fullstack'],
+					description:
+						'Creating an automated content production app for IranGFX site.',
+				},
+				{
+					title: 'OpenGate',
+					subtitle: 'Doctors office management',
+					time: 'Aug 2019 – Feb 2020',
+					tags: ['frontend'],
+					description:
+						"Front-end developer and consultant on building a doctor's office management project with the OpenGate team.",
+				},
+				{
+					title: 'CafiMafi',
+					subtitle: 'Coffee Store',
+					time: 'Jan 2019 – Aug 2019',
+					tags: ['recent', 'fullstack'],
+					description: 'Online coffee store',
+				},
+				{
+					title: 'PiroArch',
+					subtitle: 'Auto Desk Inventor Add-ons',
+					time: 'Feb 2015 – Mar 2016',
+					tags: [],
+					description:
+						'An in-depth development project developed by the Inventor engineering software to create plugins to increase the speed of manufacturing and manufacturing of industrial components. This project is due to the fact that in Iran and even in the world people are a bit fluent in this technology and can completely personalize software engineering and take activities that may take normal time-consuming time in one Click to implement.',
+				},
+				{
+					title: 'Fanous',
+					subtitle: 'Cultural complex',
+					time: 'Oct 2017 – Mar 2018',
+					tags: ['fullstack'],
+					description:
+						'Web Project for Travel Management and Accounting for the Fanous Cultural Complex.',
+				},
+				{
+					title: 'Fatemioun',
+					subtitle: 'Family loan',
+					time: 'Oct 2017 – Feb 2018',
+					tags: ['fullstack'],
+					description:
+						"Web-Based Project for Managing and Accounting for Fatemioun's Family Loan. It is written in PHP and the Laravel framework using the CSS Framework Semantic UI.",
+				},
+				{
+					title: 'Mail Application',
+					subtitle: 'University project',
+					time: 'Jun 2016 – Jun 2016',
+					tags: [],
+					description:
+						'A Socket Programming-based project, with ++ c, should connect multiple clients simultaneously with the server. In this project, we used Library SDL for ++ C to create the UI in the client, and we also used the material design philosophy to create a graphical look.',
+				},
+				{
+					title: 'Plate recognition',
+					subtitle: 'University project',
+					time: 'Mar 2016 – Mar 2016',
+					tags: ['small'],
+					description:
+						'A university project in C++ is used to recognize the plaque in the image and read the full license plate number, and is used to process the image from Library OpenCV, Google Tesseract.',
+				},
+				{
+					title: 'Restaurant Management',
+					subtitle: 'University project',
+					time: 'Dec 2015 – Jan 2016',
+					tags: ['small'],
+					description:
+						'One of the development projects that we had to write with the C++ system was the CMS.',
+				},
 			],
 		},
 		service: {
@@ -45,25 +142,13 @@ export default {
 				'Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant deleniti',
 			items: [
 				{
-					title: 'Front-End & Responsive Coding.',
+					title: 'FrontEnd Development',
 					description:
 						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
 					icon: '',
 				},
 				{
-					title: 'User Experience & Interface Design.',
-					description:
-						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-					icon: '',
-				},
-				{
-					title: 'Social Media & Online Marketing.',
-					description:
-						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-					icon: '',
-				},
-				{
-					title: 'Mobile Application & Game Development.',
+					title: 'FullStack Development',
 					description:
 						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
 					icon: '',
