@@ -13,7 +13,7 @@ export default {
 			tabs: [
 				{
 					title: 'Myself.',
-					description: `Hello! I’m Rashedul Kabir a self-taught & award winning Digital Designer & Developer with over five years work experience. I started in my children’s room, got pro at renowned digital agencies akij co and nork blue lebel. Now I’m based in Dhaka, Bangladesh, working for Apple fredmansky and enjoying the life in the countryside.`,
+					description: `Hello, I am Hamid. Full-time programmer and interested in up-to-date and complex topics of software engineering, I have been working and learning as a full-time programmer for more than 5 years. I started programming with the great C++ language and have been specializing in the web for over 4 years. I am very interested in working in new fields. From site design and programmer to server management and config topics and its advanced issues.`,
 				},
 				{
 					title: 'Education.',
@@ -34,16 +34,16 @@ export default {
 			gallery: 'View Gallery',
 			tabs: [
 				{ title: 'Recent.', filter: 'recent' },
-				{ title: 'OpenSource.', filter: 'openSource' },
-				{ title: 'Medium.', filter: 'medium' },
-				{ title: 'Small.', filter: 'small' },
+				{ title: 'FrontEnd.', filter: 'frontend' },
+				{ title: 'FullStack.', filter: 'fullstack' },
+				{ title: 'All.', filter: null },
 			],
 			items: [
 				{
 					title: 'Railive',
 					subtitle: 'Online video platform',
 					time: 'Mar 2020 – Present',
-					tags: ['recent'],
+					tags: ['recent', 'frontend'],
 					description:
 						'RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website.',
 				},
@@ -51,7 +51,7 @@ export default {
 					title: 'Gerama',
 					subtitle: 'Music application',
 					time: 'Jun 2019 – Feb 2020',
-					tags: ['recent'],
+					tags: ['recent', 'fullstack'],
 					description:
 						'Creating a crawler robot to scrapping music related sites and automatically generate music content and albums.',
 				},
@@ -59,7 +59,7 @@ export default {
 					title: 'TarHan',
 					subtitle: 'Online graphic platform',
 					time: 'Jun 2017 – Feb 2020',
-					tags: [],
+					tags: ['frontend'],
 					description:
 						'A massive project to build a design and printing platform.',
 				},
@@ -67,7 +67,7 @@ export default {
 					title: 'IranGFX',
 					subtitle: 'Graphic store',
 					time: 'Dec 2019 – Feb 2020',
-					tags: ['recent'],
+					tags: ['recent', 'fullstack'],
 					description:
 						'Creating an automated content production app for IranGFX site.',
 				},
@@ -75,7 +75,7 @@ export default {
 					title: 'OpenGate',
 					subtitle: 'Doctors office management',
 					time: 'Aug 2019 – Feb 2020',
-					tags: ['recent'],
+					tags: ['frontend'],
 					description:
 						"Front-end developer and consultant on building a doctor's office management project with the OpenGate team.",
 				},
@@ -83,7 +83,7 @@ export default {
 					title: 'CafiMafi',
 					subtitle: 'Coffee Store',
 					time: 'Jan 2019 – Aug 2019',
-					tags: ['recent'],
+					tags: ['recent', 'fullstack'],
 					description: 'Online coffee store',
 				},
 				{
@@ -98,7 +98,7 @@ export default {
 					title: 'Fanous',
 					subtitle: 'Cultural complex',
 					time: 'Oct 2017 – Mar 2018',
-					tags: [],
+					tags: ['fullstack'],
 					description:
 						'Web Project for Travel Management and Accounting for the Fanous Cultural Complex.',
 				},
@@ -106,7 +106,7 @@ export default {
 					title: 'Fatemioun',
 					subtitle: 'Family loan',
 					time: 'Oct 2017 – Feb 2018',
-					tags: [],
+					tags: ['fullstack'],
 					description:
 						"Web-Based Project for Managing and Accounting for Fatemioun's Family Loan. It is written in PHP and the Laravel framework using the CSS Framework Semantic UI.",
 				},
@@ -142,25 +142,13 @@ export default {
 				'Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant deleniti',
 			items: [
 				{
-					title: 'Front-End & Responsive Coding.',
+					title: 'FrontEnd Development',
 					description:
 						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
 					icon: '',
 				},
 				{
-					title: 'User Experience & Interface Design.',
-					description:
-						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-					icon: '',
-				},
-				{
-					title: 'Social Media & Online Marketing.',
-					description:
-						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
-					icon: '',
-				},
-				{
-					title: 'Mobile Application & Game Development.',
+					title: 'FullStack Development',
 					description:
 						'Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec',
 					icon: '',
