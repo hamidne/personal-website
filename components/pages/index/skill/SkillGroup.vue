@@ -1,19 +1,15 @@
 <template>
-	<div>
-		<h2 v-text="item.title">FrontEnd</h2>
-		<b-row>
-			<b-col v-for="(skill, index) in item.items" :key="index" lg="3">
-				<skill-item :item="skill" />
-			</b-col>
-		</b-row>
+	<div class="skill-group">
+		<h2 class="skill-group__title" v-text="item.title" />
+		<skill-items :items="item.items" />
 	</div>
 </template>
 
 <script>
-import SkillItem from '~/components/pages/index/skill/SkillItem.vue'
+import SkillItems from '~/components/pages/index/skill/SkillItems.vue'
 
 export default {
-	components: { SkillItem },
+	components: { SkillItems },
 	props: {
 		item: {
 			type: Object,
@@ -23,4 +19,13 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.skill-group {
+	+ .skill-group {
+		margin-top: 4rem;
+	}
+}
+.skill-group__title {
+	color: #e1a34c;
+}
+</style>
