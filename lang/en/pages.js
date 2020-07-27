@@ -168,7 +168,7 @@ export default {
 						{ title: 'SCSS', percent: 70 },
 						{ title: 'LESS', percent: 50 },
 						{ title: 'Webpack', percent: 30, subtitle: '' },
-						{ title: 'JQuery', percent: 50, subtitle: '' },
+						{ title: 'JQuery', percent: 95, subtitle: '' },
 						{ title: 'Vuex', percent: 70, subtitle: '' },
 						{ title: 'JavaScript', percent: 100, subtitle: '' },
 						{ title: 'ES6 / ES7 / ES8', percent: 90, subtitle: '' },
