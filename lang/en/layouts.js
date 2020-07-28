@@ -3,7 +3,7 @@ export default {
 		items: [
 			{ title: 'Home.', target: 'body' },
 			{ title: 'About.', target: '.about-me-portfo' },
-			{ title: 'Experties.', target: '.skill-section-portfo' },
+			{ title: 'Sills.', target: '.skill-section-portfo' },
 			{ title: 'Services.', target: '.our-service-portfo' },
 			{ title: 'Projects.', target: '.our-project-portfo' },
 		],

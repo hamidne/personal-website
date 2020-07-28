@@ -156,7 +156,7 @@ export default {
 			],
 		},
 		skill: {
-			title: 'Experties',
+			title: 'Skills',
 			items: [
 				{
 					title: 'FrontEnd',
