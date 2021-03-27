@@ -14,7 +14,7 @@
 							:start-delay="1000"
 							content-type="html"
 						>
-							<span class="typing font-weight-normal text-decoration-none" />
+							<span class="typing font-weight-bolder text-decoration-none" />
 						</vue-typed-js>
 					</span>
 				</h1>
