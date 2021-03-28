@@ -1,1 +1,1 @@
-export default ['@nuxtjs/eslint-module']
+export default ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss']

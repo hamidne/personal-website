@@ -1,10 +1,11 @@
-import css from './configs/css'
-import i18n from './configs/i18n'
-import head from './configs/head'
-import build from './configs/build'
-import modules from './configs/modules'
-import plugins from './configs/plugins'
-import buildModules from './configs/buildModules'
+import css from './config/css'
+import i18n from './config/i18n'
+import head from './config/head'
+import build from './config/build'
+import modules from './config/modules'
+import plugins from './config/plugins'
+import tailwindcss from './config/tailwindcss'
+import buildModules from './config/buildModules'
 
 export default {
 	ssr: false,
@@ -16,5 +17,6 @@ export default {
 	build,
 	modules,
 	plugins,
+	tailwindcss,
 	buildModules,
 }
