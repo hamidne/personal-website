@@ -10,12 +10,10 @@
 
 <script>
 import SectionTitle from '~/components/pages/index/global/SectionTitle'
-import ExperienceItems from '~/components/pages/index/experience/ExperienceItems'
 import SectionNumber from '~/components/pages/index/global/SectionNumber'
+import ExperienceItems from '~/components/pages/index/experience/ExperienceItems'
 
 export default {
 	components: { SectionTitle, SectionNumber, ExperienceItems },
 }
 </script>
-
-<style lang="scss" scoped></style>

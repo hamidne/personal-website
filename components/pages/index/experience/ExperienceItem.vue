@@ -4,6 +4,7 @@
 			<h4 class="experience-item__title text-white" v-text="item.title" />
 			<span class="mx-2">-</span>
 			<h5 class="text-white-50" v-text="item.subtitle" />
+			<span class="mr-auto text-primary" v-text="item.position" />
 		</div>
 		<span class="text-white-50" v-text="item.time" />
 		<p v-text="item.description" />
