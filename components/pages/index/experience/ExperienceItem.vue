@@ -1,9 +1,9 @@
 <template>
-	<div class="project-item position-relative mt-5 p-5" data-aos="fade-up">
+	<div class="experience-item position-relative mt-5 p-5" data-aos="fade-up">
 		<div class="d-flex align-items-center">
-			<h4 class="project-item__title text-white" v-text="item.title" />
+			<h4 class="experience-item__title text-white" v-text="item.title" />
 			<span class="mx-2">-</span>
-			<h5 class="text-white-50" v-text="item.subtitle"></h5>
+			<h5 class="text-white-50" v-text="item.subtitle" />
 		</div>
 		<span class="text-white-50" v-text="item.time" />
 		<p v-text="item.description" />
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.project-item {
+.experience-item {
 	z-index: 1;
 	background: #202245;
 	&:hover {
@@ -45,7 +45,7 @@ export default {
 		}
 	}
 }
-.project-item__title {
+.experience-item__title {
 	font-weight: 600;
 }
 </style>

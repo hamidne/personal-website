@@ -30,112 +30,99 @@
 			"download": "دانلود رزومه.",
 			"hire": "Hire Me"
 		},
-		"project": {
+		"experience": {
 			"title": "پروژه ها",
 			"description":
 				"Die CI Farben von Millhaus sind schwarz . Nett aber auch herausfoernd. Anfangs probierten, uns abert z.",
 			"gallery": "View Gallery",
 			"tabs": [
-				{ "title": "اخیر.", "filter": "recent" },
-				{ "title": "FrontEnd.", "filter": "frontend" },
-				{ "title": "FullStack.", "filter": "fullstack" },
-				{ "title": "همه.", "filter": null }
+				{ "title": "همه.", "filter": null },
+				{ "title": "فعال.", "filter": "active" },
+				{ "title": "تمام وقت.", "filter": "full-time" },
+				{ "title": "شخصی.", "filter": "self-employed" },
+				{ "title": "مشاوره.", "filter": "contract" },
+				{ "title": "فری لنس.", "filter": "freelance" }
 			],
 			"items": [
 				{
-					"title": "Railive",
-					"subtitle": "Online video platform",
-					"time": "Mar 2020 – Present",
-					"tags": ["recent", "frontend"],
+					"title": "ملودیو",
+					"subtitle": "اپلیکیشن موسیقی بی کلام",
+					"time": "آبان 1399 – تا به حال",
+					"type": "self-employed",
+					"tags": ["self-employed", "active"],
+					"description":
+					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+				},
+				{
+					"title": "علی بابا",
+					"subtitle": "شرکت سفر های علی بابا",
+					"time": "مهر 1399 – تا به حال",
+					"type": "full-time",
+					"tags": ["full-time", "active"],
+					"description":
+					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+				},
+				{
+					"title": "پاستا",
+					"subtitle": "پلتفرم ابری پاستا",
+					"time": "تیر 1399 – تا به حال",
+					"type": "self-employed",
+					"tags": ["self-employed", "active"],
+					"description":
+					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+				},
+				{
+					"title": "باسلام",
+					"subtitle": "بازار اجتماعی آنلاین باسلام",
+					"time": "خرداد 1399 - مهر 1399",
+					"type": "contract",
+					"tags": ["contract"],
+					"description":
+					"Creating an automated content production app for IranGFX site."
+				},
+				{
+					"title": "رایمون",
+					"subtitle": "شرکت رایمون سیستم ایرانیان",
+					"time": "اسفند 1398 – شهریور 1399",
+					"type": "full-time",
+					"tags": ["full-time"],
 					"description":
 						"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
 				},
 				{
-					"title": "Gerama",
-					"subtitle": "Music application",
-					"time": "Jun 2019 – Feb 2020",
-					"tags": ["recent", "fullstack"],
+					"title": "طرحان",
+					"subtitle": "شرکت بدیع پرداز",
+					"time": "تیر 1396 – بهمن 1398",
+					"type": "full-time",
+					"tags": ["full-time"],
 					"description":
 						"Creating a crawler robot to scrapping music related sites and automatically generate music content and albums."
 				},
 				{
-					"title": "TarHan",
-					"subtitle": "Online graphic platform",
-					"time": "Jun 2017 – Feb 2020",
-					"tags": ["frontend"],
-					"description":
-						"A massive project to build a design and printing platform."
-				},
-				{
-					"title": "IranGFX",
-					"subtitle": "Graphic store",
-					"time": "Dec 2019 – Feb 2020",
-					"tags": ["recent", "fullstack"],
-					"description":
-						"Creating an automated content production app for IranGFX site."
-				},
-				{
-					"title": "OpenGate",
+					"title": "اپن گیت",
 					"subtitle": "Doctors office management",
-					"time": "Aug 2019 – Feb 2020",
-					"tags": ["frontend"],
+					"time": "شهریور 1398 - بهمن 1398",
+					"type": "freelance",
+					"tags": ["freelance"],
 					"description":
 						"Front-end developer and consultant on building a doctor's office management project with the OpenGate team."
 				},
 				{
-					"title": "CafiMafi",
+					"title": "کافی مافی",
 					"subtitle": "Coffee Store",
-					"time": "Jan 2019 – Aug 2019",
-					"tags": ["recent", "fullstack"],
+					"time": "دی 1397 - آبان 1398",
+					"type": "freelance",
+					"tags": ["freelance"],
 					"description": "Online coffee store"
 				},
 				{
-					"title": "PiroArch",
+					"title": "پیرو آرچ",
 					"subtitle": "Auto Desk Inventor Add-ons",
 					"time": "Feb 2015 – Mar 2016",
-					"tags": [],
+					"type": "freelance",
+					"tags": ["freelance"],
 					"description":
 						"An in-depth development project developed by the Inventor engineering software to create plugins to increase the speed of manufacturing and manufacturing of industrial components. This project is due to the fact that in Iran and even in the world people are a bit fluent in this technology and can completely personalize software engineering and take activities that may take normal time-consuming time in one Click to implement."
-				},
-				{
-					"title": "Fanous",
-					"subtitle": "Cultural complex",
-					"time": "Oct 2017 – Mar 2018",
-					"tags": ["fullstack"],
-					"description":
-						"Web Project for Travel Management and Accounting for the Fanous Cultural Complex."
-				},
-				{
-					"title": "Fatemioun",
-					"subtitle": "Family loan",
-					"time": "Oct 2017 – Feb 2018",
-					"tags": ["fullstack"],
-					"description":
-						"Web-Based Project for Managing and Accounting for Fatemioun's Family Loan. It is written in PHP and the Laravel framework using the CSS Framework Semantic UI."
-				},
-				{
-					"title": "Mail Application",
-					"subtitle": "University project",
-					"time": "Jun 2016 – Jun 2016",
-					"tags": [],
-					"description":
-						"A Socket Programming-based project, with ++ c, should connect multiple clients simultaneously with the server. In this project, we used Library SDL for ++ C to create the UI in the client, and we also used the material design philosophy to create a graphical look."
-				},
-				{
-					"title": "Plate recognition",
-					"subtitle": "University project",
-					"time": "Mar 2016 – Mar 2016",
-					"tags": ["small"],
-					"description":
-						"A university project in C++ is used to recognize the plaque in the image and read the full license plate number, and is used to process the image from Library OpenCV, Google Tesseract."
-				},
-				{
-					"title": "Restaurant Management",
-					"subtitle": "University project",
-					"time": "Dec 2015 – Jan 2016",
-					"tags": ["small"],
-					"description":
-						"One of the development projects that we had to write with the C++ system was the CMS."
 				}
 			]
 		},
@@ -228,7 +215,7 @@
 		},
 		"testimonial": {
 			"title": "توصیفات",
-			"description": "مشتری ما درباره من چه می گوید",
+			"description": "دیگران درباره من چه می گوید",
 			"items": [
 				{
 					"author": "راشید کابر",

@@ -1,6 +1,6 @@
 <template>
 	<div id="isotop-gallery-wrapper">
-		<div class="grid-sizer"></div>
+		<div class="grid-sizer" />
 		<div class="isotop-item marketing">
 			<div class="effect-zoe">
 				<img src="images/portfolio/5.jpg" alt="" />
@@ -13,9 +13,8 @@
 							href="images/portfolio/5.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -37,9 +36,8 @@
 							href="images/portfolio/6.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -61,9 +59,8 @@
 							href="images/portfolio/7.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -85,9 +82,8 @@
 							href="images/portfolio/8.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -109,9 +105,8 @@
 							href="images/portfolio/9.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -133,9 +128,8 @@
 							href="images/portfolio/10.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -157,9 +151,8 @@
 							href="images/portfolio/11.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately
@@ -181,9 +174,8 @@
 							href="images/portfolio/12.jpg"
 							class="icon zoom fancybox"
 							data-fancybox="images"
-							><i class="fa fa-eye" aria-hidden="true"></i
-						></a>
-						<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+						><i class="fa fa-eye" aria-hidden="true" /></a>
+						<a href="#"><i class="fa fa-heart-o" aria-hidden="true" /></a>
 					</p>
 					<p class="description">
 						Rogan never had the patience of her sisters. She deliberately

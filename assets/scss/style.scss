@@ -2328,7 +2328,7 @@ textarea {
 		transition: all 0.3s ease-in-out;
 	}
 }
-.our-project-portfo {
+.our-experience-portfo {
 	.text-content {
 		.gallery-button {
 			transition: all 0.3s ease-in-out;
@@ -6573,7 +6573,7 @@ textarea {
 			}
 		}
 		width: 33.33333333%;
-		.project-item {
+		.experience-item {
 			&:hover {
 				.hover-jojo {
 					opacity: 1;
@@ -6661,8 +6661,8 @@ textarea {
 	}
 	padding-top: 245px;
 }
-.our-project {
-	.project-item {
+.our-experience {
+	.experience-item {
 		.hover-valina {
 			transition: all 0.3s ease-in-out;
 			position: absolute;
@@ -6860,8 +6860,8 @@ textarea {
 		text-align: right;
 	}
 }
-.project-with-sidebar {
-	.project-item {
+.experience-with-sidebar {
+	.experience-item {
 		.img-box {
 			a {
 				transition: all 0.3s ease-in-out;
@@ -6937,7 +6937,7 @@ textarea {
 		padding: 100px 0 80px;
 	}
 }
-.project-minimal-style {
+.experience-minimal-style {
 	.share-icon {
 		li {
 			a {
@@ -6988,7 +6988,7 @@ textarea {
 		padding: 0 35px;
 	}
 }
-.project-details {
+.experience-details {
 	.share-icon {
 		li {
 			a {
@@ -7033,20 +7033,20 @@ textarea {
 		}
 		padding-bottom: 75px;
 	}
-	.project-title-one {
+	.experience-title-one {
 		font-size: 48px;
 		line-height: 55px;
 		color: #3e3e3e;
 		width: 45%;
 	}
-	.project-title-two {
+	.experience-title-two {
 		font-size: 60px;
 		line-height: 65px;
 		color: #3e3e3e;
 		width: 80%;
 		margin: 0 auto;
 	}
-	.project-info {
+	.experience-info {
 		.title {
 			font-size: 28px;
 			color: #3e3e3e;
@@ -8340,7 +8340,7 @@ textarea {
 		margin-bottom: 40px;
 	}
 }
-.studio-project-holder {
+.studio-experience-holder {
 	transition: all 0.3s ease-in-out;
 	position: relative;
 	overflow: hidden;
@@ -8935,7 +8935,7 @@ textarea {
 		}
 	}
 }
-.related-project {
+.related-experience {
 	.owl-theme {
 		.owl-nav {
 			[class*='owl-'] {
@@ -9458,7 +9458,7 @@ textarea {
 		margin-bottom: 50px;
 	}
 }
-.arch-project-gallery {
+.arch-experience-gallery {
 	.isotop-menu-wrapper {
 		li.is-checked {
 			color: #ff3a46;
@@ -11722,7 +11722,7 @@ textarea {
 		}
 	}
 }
-.our-project-portfo.section-portfo {
+.our-experience-portfo.section-portfo {
 	border-bottom: none;
 	padding-bottom: 90px;
 }
@@ -12408,7 +12408,7 @@ textarea {
 		}
 	}
 }
-.project-ms-grid {
+.experience-ms-grid {
 	.inner-container {
 		max-width: 1410px;
 		padding: 0 15px;
@@ -12428,7 +12428,7 @@ textarea {
 		}
 	}
 }
-.project-standard {
+.experience-standard {
 	#isotop-gallery-wrapper {
 		margin: 0 -35px;
 		.grid-sizer {
@@ -12443,7 +12443,7 @@ textarea {
 		}
 	}
 }
-.project-ms-full-width {
+.experience-ms-full-width {
 	#isotop-gallery-wrapper {
 		.grid-sizer {
 			width: 25%;
@@ -12453,10 +12453,10 @@ textarea {
 		}
 	}
 }
-.project-minimal-page-wrapper {
+.experience-minimal-page-wrapper {
 	height: 100vh;
 }
-.project-details-agency {
+.experience-details-agency {
 	.pd-img-box {
 		margin: 68px 0 90px;
 	}
@@ -12467,7 +12467,7 @@ textarea {
 			color: #3e3e3e;
 			padding-bottom: 50px;
 		}
-		.project-info {
+		.experience-info {
 			border-left: 1px solid #e1e1e1;
 			padding-left: 100px;
 		}
@@ -12476,7 +12476,7 @@ textarea {
 		padding-top: 170px;
 	}
 }
-.project-details-standard {
+.experience-details-standard {
 	.pd-footer {
 		padding-top: 35px;
 		position: relative;
@@ -12496,13 +12496,13 @@ textarea {
 		margin-bottom: 90px;
 	}
 }
-.project-details-business {
+.experience-details-business {
 	.pd-img-box {
 		margin-bottom: 50px;
 	}
 }
-.project-details.project-details-business {
-	.project-info {
+.experience-details.experience-details-business {
+	.experience-info {
 		.title {
 			margin: 60px 0 35px;
 		}
@@ -12518,7 +12518,7 @@ textarea {
 		padding-bottom: 50px;
 	}
 }
-.project-details-creative {
+.experience-details-creative {
 	.pd-banner {
 		.container {
 			position: relative;
@@ -12528,7 +12528,7 @@ textarea {
 			position: relative;
 			height: 100%;
 		}
-		.project-title-one {
+		.experience-title-one {
 			background: #fff;
 			padding: 45px 100px 35px 60px;
 			position: absolute;
@@ -12544,13 +12544,13 @@ textarea {
 	.pd-body {
 		padding: 180px 0 150px;
 	}
-	.project-info {
+	.experience-info {
 		border-right: 1px solid #e1e1e1;
 		margin-right: 50px;
 	}
 }
-.project-details.project-details-creative {
-	.project-info {
+.experience-details.experience-details-creative {
+	.experience-info {
 		ul {
 			li {
 				padding-bottom: 73px;
@@ -12875,7 +12875,7 @@ textarea {
 		}
 	}
 }
-.project-creative {
+.experience-creative {
 	padding-top: 50px;
 	color: #76797e;
 	position: relative;
@@ -13527,7 +13527,7 @@ textarea {
 		background: #1b1d3d;
 		padding: 30px 0 150px;
 	}
-	.project-minimal-style {
+	.experience-minimal-style {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -14446,7 +14446,7 @@ html[lang='ru'] {
 		}
 	}
 }
-.op-project-one {
+.op-experience-one {
 	position: relative;
 	z-index: 1;
 	background: #fdfbf6;
@@ -14472,7 +14472,7 @@ html[lang='ru'] {
 			font-size: 380px;
 			color: #161616;
 		}
-		.project-text {
+		.experience-text {
 			position: absolute;
 			bottom: -190px;
 			right: 0;
@@ -14802,7 +14802,7 @@ html[lang='ru'] {
 	right: 50px;
 	width: auto;
 }
-.studio-project-area {
+.studio-experience-area {
 	padding: 90px 0 150px;
 	position: relative;
 	&:before {
@@ -14930,7 +14930,7 @@ html[lang='ru'] {
 	}
 }
 @media screen and (min-width: 53em) {
-	.project-creative {
+	.experience-creative {
 		padding: 0;
 		.slideshow {
 			height: 100vh;

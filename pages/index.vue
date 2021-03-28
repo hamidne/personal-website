@@ -3,27 +3,24 @@
 		<banner />
 		<about />
 		<skill />
-		<service />
-		<project />
+		<experience />
 		<testimonial />
 	</div>
 </template>
 
 <script>
-import About from '~/components/pages/index/about/About.vue'
-import Skill from '~/components/pages/index/skill/Skill.vue'
-import Banner from '~/components/pages/index/banner/Banner.vue'
-import Project from '~/components/pages/index/project/Project.vue'
-import Service from '~/components/pages/index/service/Service.vue'
-import Testimonial from '~/components/pages/index/testimonial/Testimonial.vue'
+import About from '~/components/pages/index/about/About'
+import Skill from '~/components/pages/index/skill/Skill'
+import Banner from '~/components/pages/index/banner/Banner'
+import Experience from '~/components/pages/index/experience/Experience'
+import Testimonial from '~/components/pages/index/testimonial/Testimonial'
 
 export default {
 	components: {
 		About,
 		Skill,
 		Banner,
-		Project,
-		Service,
+		Experience,
 		Testimonial,
 	},
 }
