@@ -4,8 +4,7 @@
 			{ "title": "خانه.", "target": "body" },
 			{ "title": "درباره من.", "target": ".about-me-portfo" },
 			{ "title": "توانایی ها.", "target": ".skill-section-portfo" },
-			{ "title": "تجربیات.", "target": ".our-service-portfo" },
-			{ "title": "پروژه ها.", "target": ".our-project-portfo" }
+			{ "title": "تجربیات.", "target": ".our-experience-portfo" }
 		],
 		"socials": [
 			{ "icon": "fab fa-facebook-f", "href": "" },

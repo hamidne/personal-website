@@ -31,7 +31,7 @@
 			"hire": "Hire Me"
 		},
 		"experience": {
-			"title": "پروژه ها",
+			"title": "تجربیات",
 			"description":
 				"Die CI Farben von Millhaus sind schwarz . Nett aber auch herausfoernd. Anfangs probierten, uns abert z.",
 			"gallery": "View Gallery",
@@ -50,6 +50,7 @@
 					"time": "آبان 1399 – تا به حال",
 					"type": "self-employed",
 					"tags": ["self-employed", "active"],
+					"position": "برنامه نویس فول استک",
 					"description":
 					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
 				},
@@ -59,6 +60,7 @@
 					"time": "مهر 1399 – تا به حال",
 					"type": "full-time",
 					"tags": ["full-time", "active"],
+					"position": "برنامه نویس فرانت اند",
 					"description":
 					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
 				},
@@ -68,8 +70,9 @@
 					"time": "تیر 1399 – تا به حال",
 					"type": "self-employed",
 					"tags": ["self-employed", "active"],
+					"position": "برنامه نویس فرانت اند",
 					"description":
-					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+					"پاستا فعالیت خود را در مسابقه برنامه نویسی ArvanCloud آغاز کرد و با تلاش اعضای تیم محصولی را تولید کردیم که استفاده از خدمات PaaS را تسهیل می کند. این محصول به شما کمک می کند بدون استفاده از ابزارهای یادگیری مانند Docker و Kubernetes ، منابع خود را به برنامه ها تبدیل کرده و برنامه های خود را در سرورهای PaaS مستقر کنید."
 				},
 				{
 					"title": "باسلام",
@@ -77,8 +80,9 @@
 					"time": "خرداد 1399 - مهر 1399",
 					"type": "contract",
 					"tags": ["contract"],
+					"position": "مشاور فرانت اند",
 					"description":
-					"Creating an automated content production app for IranGFX site."
+					"مشاوره تیم FrontEnd شرکت باسلام در مورد بازنویسی کد و انتقال آن به Nuxt.js."
 				},
 				{
 					"title": "رایمون",
@@ -86,8 +90,9 @@
 					"time": "اسفند 1398 – شهریور 1399",
 					"type": "full-time",
 					"tags": ["full-time"],
+					"position": "مدیر تیم فرانت اند",
 					"description":
-						"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+						"Raimun یک شرکت هولدینگ نرم افزار است و دارای نرم افزار در زمینه های مختلف فنی مانند RaiLive ، RaiHost ، RaiQ ، RaiArt است."
 				},
 				{
 					"title": "طرحان",
@@ -95,8 +100,9 @@
 					"time": "تیر 1396 – بهمن 1398",
 					"type": "full-time",
 					"tags": ["full-time"],
+					"position": "مدیر فنی",
 					"description":
-						"Creating a crawler robot to scrapping music related sites and automatically generate music content and albums."
+						"پلت فرم طراحی و چاپ آنلاین که هدف آن اصلاح ساختارهای چاپی و طراحی موجود در بازار است."
 				},
 				{
 					"title": "اپن گیت",
@@ -104,6 +110,7 @@
 					"time": "شهریور 1398 - بهمن 1398",
 					"type": "freelance",
 					"tags": ["freelance"],
+					"position": "برنامه نویس فرانت اند",
 					"description":
 						"Front-end developer and consultant on building a doctor's office management project with the OpenGate team."
 				},
@@ -113,6 +120,7 @@
 					"time": "دی 1397 - آبان 1398",
 					"type": "freelance",
 					"tags": ["freelance"],
+					"position": "برنامه نویس فرانت اند",
 					"description": "Online coffee store"
 				},
 				{
@@ -121,6 +129,7 @@
 					"time": "Feb 2015 – Mar 2016",
 					"type": "freelance",
 					"tags": ["freelance"],
+					"position": "مهندس نرم افزار",
 					"description":
 						"An in-depth development project developed by the Inventor engineering software to create plugins to increase the speed of manufacturing and manufacturing of industrial components. This project is due to the fact that in Iran and even in the world people are a bit fluent in this technology and can completely personalize software engineering and take activities that may take normal time-consuming time in one Click to implement."
 				}
