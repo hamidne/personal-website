@@ -2,10 +2,9 @@
 	<div
 		v-observe-visibility="visibilityChanged"
 		class="section-num hide-pr"
-		:class="{ 'show-pr': visiable }"
+		:class="{ 'show-pr': visible }"
 	>
-		<span>0</span>
-		<span v-text="number" />
+		<span v-text="number.toLocaleString(localISO)" />
 	</div>
 </template>
 
@@ -17,10 +16,15 @@ export default {
 			default: 0,
 		},
 	},
-	data: () => ({ visiable: false }),
+	data: () => ({ visible: false }),
+	computed: {
+		localISO() {
+			return this.$i18n.localeProperties.iso
+		},
+	},
 	methods: {
-		visibilityChanged(visiable, entry) {
-			this.visiable = visiable
+		visibilityChanged(visible) {
+			this.visible = visible
 		},
 	},
 }

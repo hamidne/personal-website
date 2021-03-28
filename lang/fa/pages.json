@@ -1,10 +1,13 @@
 {
 	"index": {
 		"banner": {
-			"title": "من حمید نصر هستم برنامه نویس ای",
+			"title": "من حمید نصر هستم",
 			"strings": [
+				"برنامه نویس<i>.</i>",
+				"شیفته اپن سورس<i>.</i>",
 				"اصل گرا<i>.</i>",
-				"پر تلاش<i>.</i>",
+				"عاشق مطالعه<i>.</i>",
+				"بسیار منظم<i>.</i>",
 				"سخت کوش<i>.</i>"
 			]
 		},
@@ -159,7 +162,7 @@
 			"title": "توانایی ها",
 			"items": [
 				{
-					"title": "FrontEnd",
+					"title": "فرانت اند",
 					"items": [
 						{ "title": "Nuxt.js", "percent": 95 },
 						{ "title": "Vue.js", "percent": 95 },
@@ -191,7 +194,7 @@
 					]
 				},
 				{
-					"title": "BackEnd",
+					"title": "بک اند",
 					"items": [
 						{ "title": "PHP", "percent": 60, "subtitle": "" },
 						{ "title": "Laravel", "percent": 70, "subtitle": "" },
@@ -203,7 +206,7 @@
 					]
 				},
 				{
-					"title": "DevOps",
+					"title": "دواپس",
 					"items": [
 						{ "title": "Nginx", "percent": 70, "subtitle": "" },
 						{ "title": "Docker", "percent": 50, "subtitle": "" },
@@ -214,29 +217,28 @@
 					]
 				},
 				{
-					"title": "Operating System",
+					"title": "سیستم عامل ها",
 					"items": [
-						{ "title": "Macintosh", "percent": 10, "subtitle": "2 Year" },
-						{ "title": "CentOS", "percent": 10, "subtitle": "3 Year" },
-						{ "title": "Ubuntu", "percent": 10, "subtitle": "5 Year" },
-						{ "title": "Windows", "percent": 10, "subtitle": "15 Year" }
+						{ "title": "Windows", "percent": 10, "subtitle": "۱۶ سال" },
+						{ "title": "Linux", "percent": 10, "subtitle": "۵ سال" },
+						{ "title": "MacOS", "percent": 10, "subtitle": "۳ سال" }
 					]
 				}
 			]
 		},
 		"testimonial": {
 			"title": "توصیفات",
-			"description": "What’s Our Client Say About Us.",
+			"description": "مشتری ما درباره من چه می گوید",
 			"items": [
 				{
-					"author": "Rashed kabir",
+					"author": "راشید کابر",
 					"position": "Designer",
 					"image": "images/home/2.jpg",
 					"description":
 						"Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere."
 				},
 				{
-					"author": "Zubayer hasan",
+					"author": "منصور صالحی",
 					"position": "Developer",
 					"image": "images/home/2.jpg",
 					"description":
