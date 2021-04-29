@@ -33,10 +33,15 @@ export default {
 		width: 100%;
 		height: 1px;
 		margin: auto;
-		margin-left: 1rem;
 		display: inline-flex;
 		background: #e1a34c;
 		vertical-align: middle;
+		&:dir(rtl) {
+			margin-right: 1rem;
+		}
+		&:dir(ltr) {
+			margin-left: 1rem;
+		}
 	}
 }
 </style>

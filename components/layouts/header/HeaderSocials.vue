@@ -1,5 +1,5 @@
 <template>
-	<div class="header-right-widget">
+	<div class="header-right-widget d-flex align-items-center">
 		<ul class="social-icon">
 			<li v-for="(item, index) in $t('layouts.header.socials')" :key="index">
 				<a

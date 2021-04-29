@@ -17,7 +17,7 @@
 						</div>
 					</div>
 				</swiper-slide>
-				<div slot="pagination" class="swiper-pagination"></div>
+				<div slot="pagination" class="swiper-pagination" />
 			</swiper>
 		</div>
 	</div>

@@ -1245,7 +1245,7 @@ textarea {
 	width: 100%;
 	left: 0;
 	z-index: 99;
-	padding: 65px 0 0;
+	padding: 65px 65px 0;
 }
 
 .sass-contact-banner {
@@ -2193,15 +2193,7 @@ textarea {
 			}
 		}
 
-		top: 57px;
 		z-index: 1;
-		position: absolute;
-		&:dir(rtl) {
-			left: 65px;
-		}
-		&:dir(ltr) {
-			right: 65px;
-		}
 	}
 
 	.logo {
@@ -12019,10 +12011,10 @@ textarea {
 }
 
 .theme-title-two {
-	position: relative;
-	position: relative;
-	font-size: 144px;
 	color: #fff;
+	font-size: 144px;
+	position: relative;
+	margin-bottom: 3rem;
 
 	&:first-letter {
 		padding-right: 15px;
@@ -12285,7 +12277,7 @@ textarea {
 }
 
 .theme-main-menu.theme-menu-three.fixed {
-	padding: 20px 0 5px;
+	padding: 20px 65px 5px;
 	backdrop-filter: blur(8px);
 	background: rgba(29, 31, 66, 0.93);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.03);
@@ -12294,10 +12286,6 @@ textarea {
 .theme-menu-three.fixed {
 	.logo {
 		width: 70px;
-	}
-
-	.header-right-widget {
-		top: 14px;
 	}
 }
 
@@ -13647,20 +13635,30 @@ textarea {
 		font-size: 180px;
 		color: #26294f;
 		top: 60px;
-		right: 75px;
 		z-index: -1;
+		&:dir(rtl) {
+			left: 75px;
+		}
+		&:dir(ltr) {
+			right: 75px;
+		}
 
 		&:before {
 			content: '';
 			width: 0;
 			height: 2px;
 			position: absolute;
-			right: -75px;
 			top: 50%;
 			margin-top: -1px;
 			background: #e1a34c;
 			transition: width 1s ease-out;
 			transition-delay: 0.9s;
+			&:dir(rtl) {
+				left: -75px;
+			}
+			&:dir(ltr) {
+				right: -75px;
+			}
 		}
 
 		span {

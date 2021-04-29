@@ -1,6 +1,6 @@
 <template>
 	<button class="scroll-top tran3s">
-		<i class="fa fa-angle-up" aria-hidden="true"></i>
+		<i class="fa fa-angle-up" aria-hidden="true" />
 	</button>
 </template>
 

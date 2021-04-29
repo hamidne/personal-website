@@ -3,7 +3,7 @@
 		<div id="preloader">
 			<div id="ctn-preloader" class="ctn-preloader">
 				<div class="animation-preloader">
-					<div class="spinner"></div>
+					<div class="spinner" />
 					<div class="txt-loading">
 						<span data-text-preloader="H" class="letters-loading">
 							H

@@ -1,7 +1,8 @@
 <template>
-	<div class="theme-main-menu theme-menu-three" :class="{ fixed }">
+	<div class="theme-main-menu theme-menu-three d-flex" :class="{ fixed }">
 		<header-brand />
 		<header-items />
+		<header-languages />
 		<header-socials />
 	</div>
 </template>
@@ -10,9 +11,10 @@
 import HeaderBrand from '~/components/layouts/header/HeaderBrand.vue'
 import HeaderItems from '~/components/layouts/header/HeaderItems.vue'
 import HeaderSocials from '~/components/layouts/header/HeaderSocials.vue'
+import HeaderLanguages from '~/components/layouts/header/HeaderLanguages.vue'
 
 export default {
-	components: { HeaderBrand, HeaderItems, HeaderSocials },
+	components: { HeaderLanguages, HeaderBrand, HeaderItems, HeaderSocials },
 	data: () => ({ fixed: false }),
 	mounted() {
 		document.addEventListener('scroll', this.handleScroll)
@@ -27,5 +29,3 @@ export default {
 	},
 }
 </script>
-
-<style lang="scss" scoped></style>
