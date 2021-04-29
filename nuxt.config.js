@@ -7,7 +7,7 @@ import plugins from './config/plugins'
 import buildModules from './config/buildModules'
 
 export default {
-	ssr: false,
+	ssr: true,
 	target: 'static',
 
 	css,
