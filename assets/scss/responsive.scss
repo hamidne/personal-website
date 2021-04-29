@@ -349,7 +349,12 @@
 	}
 	.theme-menu-three {
 		.header-right-widget {
-			right: 15px;
+			&:dir(rtl) {
+				left: 15px;
+			}
+			&:dir(ltr) {
+				right: 15px;
+			}
 		}
 		#mega-menu-holder {
 			margin-right: 200px;
@@ -623,6 +628,12 @@
 		.header-right-widget {
 			top: 20px;
 			right: 70px;
+			&:dir(rtl) {
+				left: 70px;
+			}
+			&:dir(ltr) {
+				right: 70px;
+			}
 		}
 		.navbar-nav {
 			.nav-item {

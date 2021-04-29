@@ -7,7 +7,7 @@
 			<span class="mr-auto text-primary" v-text="item.position" />
 		</div>
 		<span class="text-white-50" v-text="item.time" />
-		<p v-text="item.description" />
+		<p v-for="(desc, index) in descriptions" :key="index" v-text="desc" />
 	</div>
 </template>
 
@@ -17,6 +17,11 @@ export default {
 		item: {
 			type: Object,
 			required: true,
+		},
+	},
+	computed: {
+		descriptions() {
+			return this.item.description.split('\n')
 		},
 	},
 }

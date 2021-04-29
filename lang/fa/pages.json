@@ -28,7 +28,85 @@
 				}
 			],
 			"download": "دانلود رزومه.",
-			"hire": "Hire Me"
+			"hire": "ارتباط با من"
+		},
+		"skill": {
+			"title": "توانایی ها",
+			"items": [
+				{
+					"title": "فرانت اند",
+					"items": [
+						{ "title": "JavaScript", "percent": 100 },
+						{ "title": "HTML", "percent": 100 },
+						{ "title": "CSS", "percent": 100 },
+						{ "title": "ES6 / ES7 / ES8", "percent": 90 },
+						{ "title": "Git", "percent": 90 },
+						{ "title": "Vue.js", "percent": 95 },
+						{ "title": "Nuxt.js", "percent": 95 },
+						{ "title": "WebSocket", "percent": 60 },
+						{ "title": "SCSS", "percent": 70 },
+						{ "title": "LESS", "percent": 50 },
+						{ "title": "Webpack", "percent": 30 },
+						{ "title": "JQuery", "percent": 95 },
+						{ "title": "Vuex", "percent": 70 },
+						{ "title": "Jest", "percent": 50 },
+						{ "title": "Cypress", "percent": 40 },
+						{ "title": "Puppeteer", "percent": 40 },
+						{ "title": "WebScrapping", "percent": 60 },
+						{ "title": "Electron.js", "percent": 30 },
+						{ "title": "Bootstrap", "percent": 100 },
+						{ "title": "Vuetify", "percent": 80 },
+						{ "title": "ElementUI", "percent": 80 },
+						{ "title": "TailwinCSS", "percent": 70 },
+						{ "title": "MaterialUI", "percent": 70 },
+						{ "title": "Balma", "percent": 50 },
+						{ "title": "WebRTC", "percent": 50 },
+						{ "title": "PWA", "percent": 50 },
+						{ "title": "ServiceWorker", "percent": 50 },
+						{ "title": "PWA", "percent": 50 },
+						{ "title": "FireBase", "percent": 30 }
+					]
+				},
+				{
+					"title": "بک اند",
+					"items": [
+						{ "title": "PHP", "percent": 60 },
+						{ "title": "Laravel", "percent": 80 },
+						{ "title": "Node.js", "percent": 60 },
+						{ "title": "Express", "percent": 20 },
+						{ "title": "CPlusPlus", "percent": 25 },
+						{ "title": "Golang", "percent": 15 },
+						{ "title": "Git", "percent": 90 },
+						{ "title": "MongoDB", "percent": 50 },
+						{ "title": "MySql", "percent": 70 },
+						{ "title": "MariaDB", "percent": 70 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 }
+					]
+				},
+				{
+					"title": "دواپس",
+					"items": [
+						{ "title": "Nginx", "percent": 70 },
+						{ "title": "Docker", "percent": 50 },
+						{ "title": "Kubernetes", "percent": 10 },
+						{ "title": "Openshift", "percent": 10 },
+						{ "title": "JamStack", "percent": 60 },
+						{ "title": "Docker Swarm", "percent": 60 },
+						{ "title": "GitLab CI/CD", "percent": 60 }
+					]
+				},
+				{
+					"title": "سیستم عامل ها",
+					"items": [
+						{ "title": "Windows", "percent": 10, "subtitle": "۱۶ سال" },
+						{ "title": "Linux", "percent": 10, "subtitle": "۵ سال" },
+						{ "title": "MacOS", "percent": 10, "subtitle": "۳ سال" }
+					]
+				}
+			]
 		},
 		"experience": {
 			"title": "تجربیات",
@@ -52,7 +130,7 @@
 					"tags": ["self-employed", "active"],
 					"position": "برنامه نویس فول استک",
 					"description":
-					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+					"اپلیکیشن موسیقی بی کلام ملودیو که در این پروژه من وظیفه برنامه نویسی بک اند و فرانت اند و همچنین کار های دواپس پروژه را بر عهده داشتم."
 				},
 				{
 					"title": "علی بابا",
@@ -61,8 +139,7 @@
 					"type": "full-time",
 					"tags": ["full-time", "active"],
 					"position": "برنامه نویس فرانت اند",
-					"description":
-					"RaiLive is an online video event service that allows users to live classes and events live. In this project, I was responsible for managing the front-end programming team using vue.js and nuxt.js to build the website."
+					"description": "توسعه دهنده فرانت اند در بخش پرواز داخلی و خارجی و کمک در توسعه وب سایت جدید علی بابا."
 				},
 				{
 					"title": "پاستا",
@@ -72,7 +149,7 @@
 					"tags": ["self-employed", "active"],
 					"position": "برنامه نویس فرانت اند",
 					"description":
-					"پاستا فعالیت خود را در مسابقه برنامه نویسی ArvanCloud آغاز کرد و با تلاش اعضای تیم محصولی را تولید کردیم که استفاده از خدمات PaaS را تسهیل می کند. این محصول به شما کمک می کند بدون استفاده از ابزارهای یادگیری مانند Docker و Kubernetes ، منابع خود را به برنامه ها تبدیل کرده و برنامه های خود را در سرورهای PaaS مستقر کنید."
+					"پاستا فعالیت خود را در مسابقه برنامه نویسی ArvanCloud آغاز کرد و با تلاش اعضای تیم محصولی را تولید کردیم که استفاده از خدمات PaaS را تسهیل می کند. این محصول به شما کمک می کند بدون استفاده از ابزارهای یادگیری مانند Docker و Kubernetes ، منابع خود را به برنامه ها تبدیل کرده و برنامه های خود را در سرورهای PaaS مستقر کنید.\nپاستا در مسابقه ابر بازی ArvanCloud موفق به کسب رتبه دوم و همچنین در رویداد الکامپ استارز 1399 موفق به کسب رتبه دوم شد."
 				},
 				{
 					"title": "باسلام",
@@ -92,7 +169,7 @@
 					"tags": ["full-time"],
 					"position": "مدیر تیم فرانت اند",
 					"description":
-						"Raimun یک شرکت هولدینگ نرم افزار است و دارای نرم افزار در زمینه های مختلف فنی مانند RaiLive ، RaiHost ، RaiQ ، RaiArt است."
+						"Raimun یک شرکت هولدینگ نرم افزار است و دارای نرم افزار در زمینه های مختلف فنی مانند RaiLive ، RaiHost ، RaiQ ، RaiArt است.\nدر ابتدا در سمت برنامه نویس فرانت اند و در نهایت به عنوان مدیر تیم فرانت اند فعالیت کردم."
 				},
 				{
 					"title": "طرحان",
@@ -102,7 +179,7 @@
 					"tags": ["full-time"],
 					"position": "مدیر فنی",
 					"description":
-						"پلت فرم طراحی و چاپ آنلاین که هدف آن اصلاح ساختارهای چاپی و طراحی موجود در بازار است."
+						"پلت فرم طراحی و چاپ آنلاین که هدف آن اصلاح ساختارهای چاپی و طراحی موجود در بازار است.\nبرنامه نویسی پلتفرم طراحان و سایر اپلیکیشن های مجموعه."
 				},
 				{
 					"title": "اپن گیت",
@@ -112,113 +189,26 @@
 					"tags": ["freelance"],
 					"position": "برنامه نویس فرانت اند",
 					"description":
-						"Front-end developer and consultant on building a doctor's office management project with the OpenGate team."
+						"پروژه ای برای مدیریت امور بیماران که برخی خدمات را برای پزشکان فراهم می کند.\nدر این پروژه برنامه نویسی فرانت اند پنل بک آفیس و مینی وب سایت مطب پزشکان را بر عهده داشتم."
 				},
 				{
 					"title": "کافی مافی",
-					"subtitle": "Coffee Store",
+					"subtitle": "فروشگاه قهوه کافی مافی",
 					"time": "دی 1397 - آبان 1398",
 					"type": "freelance",
 					"tags": ["freelance"],
 					"position": "برنامه نویس فرانت اند",
-					"description": "Online coffee store"
+					"description": "کافی مافی یک فروشگاه آنلاین است که کالاهای ضروری قهوه و کافه را می فروشد. برنامه نویسی کامل فرانت اند این پروژه و بخشی از بک اند این پروژه توسط من انجام شده است."
 				},
 				{
 					"title": "پیرو آرچ",
 					"subtitle": "Auto Desk Inventor Add-ons",
-					"time": "Feb 2015 – Mar 2016",
+					"time": "بهمن 1394 – شهریور 1395",
 					"type": "freelance",
 					"tags": ["freelance"],
 					"position": "مهندس نرم افزار",
 					"description":
-						"An in-depth development project developed by the Inventor engineering software to create plugins to increase the speed of manufacturing and manufacturing of industrial components. This project is due to the fact that in Iran and even in the world people are a bit fluent in this technology and can completely personalize software engineering and take activities that may take normal time-consuming time in one Click to implement."
-				}
-			]
-		},
-		"service": {
-			"title": "تجربیات",
-			"description":
-				"Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant deleniti",
-			"items": [
-				{
-					"title": "FrontEnd Development",
-					"description":
-						"Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec",
-					"icon": ""
-				},
-				{
-					"title": "FullStack Development",
-					"description":
-						"Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec",
-					"icon": ""
-				}
-			]
-		},
-		"skill": {
-			"title": "توانایی ها",
-			"items": [
-				{
-					"title": "فرانت اند",
-					"items": [
-						{ "title": "Nuxt.js", "percent": 95 },
-						{ "title": "Vue.js", "percent": 95 },
-						{ "title": "HTML", "percent": 100 },
-						{ "title": "CSS", "percent": 100 },
-						{ "title": "SCSS", "percent": 70 },
-						{ "title": "LESS", "percent": 50 },
-						{ "title": "Webpack", "percent": 30, "subtitle": "" },
-						{ "title": "JQuery", "percent": 95, "subtitle": "" },
-						{ "title": "Vuex", "percent": 70, "subtitle": "" },
-						{ "title": "JavaScript", "percent": 100, "subtitle": "" },
-						{ "title": "ES6 / ES7 / ES8", "percent": 90, "subtitle": "" },
-						{ "title": "Jest", "percent": 50, "subtitle": "" },
-						{ "title": "Cypress", "percent": 40, "subtitle": "" },
-						{ "title": "Puppeteer", "percent": 40, "subtitle": "" },
-						{ "title": "WebScrapping", "percent": 60, "subtitle": "" },
-						{ "title": "Electron.js", "percent": 30, "subtitle": "" },
-						{ "title": "Bootstrap", "percent": 100, "subtitle": "" },
-						{ "title": "Vuetify", "percent": 80, "subtitle": "" },
-						{ "title": "ElementUI", "percent": 80, "subtitle": "" },
-						{ "title": "TailwinCSS", "percent": 70, "subtitle": "" },
-						{ "title": "MaterialUI", "percent": 70, "subtitle": "" },
-						{ "title": "Balma", "percent": 50, "subtitle": "" },
-						{ "title": "WebRTC", "percent": 50, "subtitle": "" },
-						{ "title": "ServiceWorker", "percent": 50, "subtitle": "" },
-						{ "title": "PWA", "percent": 50, "subtitle": "" },
-						{ "title": "WebSocket", "percent": 30, "subtitle": "" },
-						{ "title": "FireBase", "percent": 30, "subtitle": "" }
-					]
-				},
-				{
-					"title": "بک اند",
-					"items": [
-						{ "title": "PHP", "percent": 60, "subtitle": "" },
-						{ "title": "Laravel", "percent": 70, "subtitle": "" },
-						{ "title": "Node.js", "percent": 50, "subtitle": "" },
-						{ "title": "MongoDB", "percent": 50, "subtitle": "" },
-						{ "title": "Git", "percent": 90, "subtitle": "" },
-						{ "title": "MySql", "percent": 70, "subtitle": "" },
-						{ "title": "Redis", "percent": 50, "subtitle": "" }
-					]
-				},
-				{
-					"title": "دواپس",
-					"items": [
-						{ "title": "Nginx", "percent": 70, "subtitle": "" },
-						{ "title": "Docker", "percent": 50, "subtitle": "" },
-						{ "title": "Kubernetes", "percent": 10, "subtitle": "" },
-						{ "title": "Openshift", "percent": 10, "subtitle": "" },
-						{ "title": "JamStack", "percent": 60, "subtitle": "" },
-						{ "title": "GitLab CI/CD", "percent": 60, "subtitle": "" }
-					]
-				},
-				{
-					"title": "سیستم عامل ها",
-					"items": [
-						{ "title": "Windows", "percent": 10, "subtitle": "۱۶ سال" },
-						{ "title": "Linux", "percent": 10, "subtitle": "۵ سال" },
-						{ "title": "MacOS", "percent": 10, "subtitle": "۳ سال" }
-					]
+						"یک پروژه توسعه عمیق ساخته شده توسط نرم افزار مهندسی Inventor برای ایجاد پلاگین هایی برای افزایش سرعت ساخت و تولید قطعات صنعتی. این پروژه به این دلیل است که در ایران و حتی در جهان مردم کمی به این فن آوری تسلط دارند و می توانند مهندسی نرم افزار را کاملا شخصی سازی کنند و فعالیت هایی را انجام دهند که ممکن است با یک کلیک زمان ببرد و زمانبر باشد."
 				}
 			]
 		},

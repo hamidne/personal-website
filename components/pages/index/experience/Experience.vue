@@ -1,6 +1,6 @@
 <template>
 	<div class="section-portfo our-experience-portfo">
-		<section-number :number="4" />
+		<section-number :number="3" />
 		<div class="container">
 			<section-title :title="$t('pages.index.experience.title')" />
 			<experience-items />
