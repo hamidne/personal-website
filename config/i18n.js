@@ -17,5 +17,5 @@ export default {
 	lazy: true,
 	langDir: 'lang/',
 	defaultLocale: 'en',
-	detectBrowserLanguage: false,
+	detectBrowserLanguage: true,
 }
