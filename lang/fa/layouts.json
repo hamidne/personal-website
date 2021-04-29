@@ -1,0 +1,39 @@
+{
+	"header": {
+		"items": [
+			{ "title": "خانه.", "target": "body" },
+			{ "title": "درباره من.", "target": ".about-me-portfo" },
+			{ "title": "توانایی ها.", "target": ".skill-section-portfo" },
+			{ "title": "تجربیات.", "target": ".our-experience-portfo" },
+			{ "title": "ارتباط با من.", "target": ".portfo-footer" }
+		],
+		"socials": [
+			{ "icon": "fab fa-twitter", "href": "https://twitter.com/hamidnasr97" },
+			{ "icon": "fab fa-github", "href": "https://github.com/hamidne" },
+			{
+				"icon": "fab fa-linkedin-in",
+				"href": "https://www.linkedin.com/in/hamidne"
+			}
+		]
+	},
+	"footer": {
+		"title": "ارتباط با من",
+		"description": "به من پیام دهید ، به زودی با شما تماس خواهم گرفت.",
+		"form": {
+			"name": "نام و نام خانوادگی",
+			"email": "آدرس ایمیل",
+			"subject": "موضوع",
+			"message": "متن پیام",
+			"send": "ارسال پیام"
+		},
+		"socials": [
+			{ "icon": "fab fa-twitter", "href": "https://twitter.com/hamidnasr97" },
+			{ "icon": "fab fa-github", "href": "https://github.com/hamidne" },
+			{
+				"icon": "fab fa-linkedin-in",
+				"href": "https://www.linkedin.com/in/hamidne"
+			}
+		],
+		"copyRight": "© ساخته شده با عشق توسط حمید نصر."
+	}
+}

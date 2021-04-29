@@ -1,0 +1,233 @@
+{
+	"index": {
+		"banner": {
+			"title": "من حمید نصر هستم",
+			"strings": [
+				"برنامه نویس<i>.</i>",
+				"شیفته اپن سورس<i>.</i>",
+				"اصل گرا<i>.</i>",
+				"عاشق مطالعه<i>.</i>",
+				"بسیار منظم<i>.</i>",
+				"سخت کوش<i>.</i>"
+			]
+		},
+		"about": {
+			"title": "درباره من",
+			"tabs": [
+				{
+					"title": "خودم.",
+					"description": "سلام من حمید هستم. برنامه نویس تمام وقت و علاقه مند به موضوعات به روز و پیچیده مهندسی نرم افزار ، بیش از 5 سال است که به عنوان یک برنامه نویس تمام وقت مشغول کار و یادگیری هستم. من برنامه نویسی را با زبان عالی ++ C شروع کردم و بیش از 4 سال است که در وب تخصص دارم. من علاقه زیادی به کار در زمینه های جدید دارم. از طراحی سایت و برنامه نویس گرفته تا مدیریت سرور و مباحث پیکربندی و مسائل پیشرفته آن."
+				},
+				{
+					"title": "تحصیلات.",
+					"description": "<p><b>STATE UNIVERSITY</b>, State College, Pa. <span>Bachelor of Arts in Advertising;</span> Minor: Spanish; GPA: 3.35, anticipated in May 2014</p><div class=\"tag\">Notable Accomplishments:</div><ul><li>Dean's List: Fall 2011, Spring 2018</li><li>Awarded Best Advertising Campaign Proposal for Health Committee, State University, Spring 2013</li></ul>"
+				},
+				{
+					"title": "توانایی ها.",
+					"description": "<p>Sed ut perspiciatis<span>unde omnis iste natus error sit</span> voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><ul class=\"skill-list\"><li>Web Designing _<span>HTML/CSS</span></li><li>Graphic Design. _<span>UI/UX</span></li><li>Web Development. _<span>WORDPRESS/PHP</span></li><li>Application Dev. _<span>ANDROID/ IOS</span></li></ul>"
+				}
+			],
+			"download": "دانلود رزومه.",
+			"hire": "ارتباط با من"
+		},
+		"skill": {
+			"title": "توانایی ها",
+			"items": [
+				{
+					"title": "فرانت اند",
+					"items": [
+						{ "title": "JavaScript", "percent": 80 },
+						{ "title": "HTML", "percent": 90 },
+						{ "title": "CSS", "percent": 90 },
+						{ "title": "ES6 / ES7 / ES8", "percent": 95 },
+						{ "title": "Git", "percent": 90 },
+						{ "title": "Vue.js", "percent": 95 },
+						{ "title": "Nuxt.js", "percent": 95 },
+						{ "title": "WebSocket", "percent": 60 },
+						{ "title": "SCSS", "percent": 70 },
+						{ "title": "LESS", "percent": 50 },
+						{ "title": "Webpack", "percent": 30 },
+						{ "title": "JQuery", "percent": 95 },
+						{ "title": "Vuex", "percent": 70 },
+						{ "title": "Jest", "percent": 50 },
+						{ "title": "Cypress", "percent": 40 },
+						{ "title": "Puppeteer", "percent": 40 },
+						{ "title": "WebScrapping", "percent": 60 },
+						{ "title": "Electron.js", "percent": 30 },
+						{ "title": "Bootstrap", "percent": 100 },
+						{ "title": "Vuetify", "percent": 80 },
+						{ "title": "ElementUI", "percent": 80 },
+						{ "title": "TailwinCSS", "percent": 70 },
+						{ "title": "MaterialUI", "percent": 70 },
+						{ "title": "Balma", "percent": 50 },
+						{ "title": "WebRTC", "percent": 50 },
+						{ "title": "PWA", "percent": 50 },
+						{ "title": "ServiceWorker", "percent": 50 },
+						{ "title": "PWA", "percent": 50 },
+						{ "title": "FireBase", "percent": 30 }
+					]
+				},
+				{
+					"title": "بک اند",
+					"items": [
+						{ "title": "PHP", "percent": 60 },
+						{ "title": "Laravel", "percent": 80 },
+						{ "title": "Node.js", "percent": 60 },
+						{ "title": "Express", "percent": 20 },
+						{ "title": "CPlusPlus", "percent": 25 },
+						{ "title": "Golang", "percent": 15 },
+						{ "title": "Git", "percent": 90 },
+						{ "title": "MongoDB", "percent": 50 },
+						{ "title": "MySql", "percent": 70 },
+						{ "title": "MariaDB", "percent": 70 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 }
+					]
+				},
+				{
+					"title": "دواپس",
+					"items": [
+						{ "title": "Nginx", "percent": 70 },
+						{ "title": "Docker", "percent": 50 },
+						{ "title": "Kubernetes", "percent": 10 },
+						{ "title": "Openshift", "percent": 10 },
+						{ "title": "JamStack", "percent": 60 },
+						{ "title": "Docker Swarm", "percent": 60 },
+						{ "title": "GitLab CI/CD", "percent": 60 }
+					]
+				},
+				{
+					"title": "سیستم عامل ها",
+					"items": [
+						{ "title": "Windows", "percent": 10, "subtitle": "۱۶ سال" },
+						{ "title": "Linux", "percent": 10, "subtitle": "۵ سال" },
+						{ "title": "MacOS", "percent": 10, "subtitle": "۳ سال" }
+					]
+				}
+			]
+		},
+		"experience": {
+			"title": "تجربیات",
+			"tabs": [
+				{ "title": "همه.", "filter": null },
+				{ "title": "فعال.", "filter": "active" },
+				{ "title": "تمام وقت.", "filter": "full-time" },
+				{ "title": "شخصی.", "filter": "self-employed" },
+				{ "title": "مشاوره.", "filter": "contract" },
+				{ "title": "فری لنس.", "filter": "freelance" }
+			],
+			"items": [
+				{
+					"title": "ملودیو",
+					"subtitle": "اپلیکیشن موسیقی بی کلام",
+					"time": "آبان 1399 – تا به حال",
+					"type": "self-employed",
+					"tags": ["self-employed", "active"],
+					"position": "برنامه نویس فول استک",
+					"description":
+					"اپلیکیشن موسیقی بی کلام ملودیو که در این پروژه من وظیفه برنامه نویسی بک اند و فرانت اند و همچنین کار های دواپس پروژه را بر عهده داشتم."
+				},
+				{
+					"title": "علی بابا",
+					"subtitle": "شرکت سفر های علی بابا",
+					"time": "مهر 1399 – تا به حال",
+					"type": "full-time",
+					"tags": ["full-time", "active"],
+					"position": "برنامه نویس فرانت اند",
+					"description": "توسعه دهنده فرانت اند در بخش پرواز داخلی و خارجی و کمک در توسعه وب سایت جدید علی بابا."
+				},
+				{
+					"title": "پاستا",
+					"subtitle": "پلتفرم ابری پاستا",
+					"time": "تیر 1399 – تا به حال",
+					"type": "self-employed",
+					"tags": ["self-employed", "active"],
+					"position": "برنامه نویس فرانت اند",
+					"description":
+					"پاستا فعالیت خود را در مسابقه برنامه نویسی ArvanCloud آغاز کرد و با تلاش اعضای تیم محصولی را تولید کردیم که استفاده از خدمات PaaS را تسهیل می کند. این محصول به شما کمک می کند بدون استفاده از ابزارهای یادگیری مانند Docker و Kubernetes ، منابع خود را به برنامه ها تبدیل کرده و برنامه های خود را در سرورهای PaaS مستقر کنید.\nپاستا در مسابقه ابر بازی ArvanCloud موفق به کسب رتبه دوم و همچنین در رویداد الکامپ استارز 1399 موفق به کسب رتبه دوم شد."
+				},
+				{
+					"title": "باسلام",
+					"subtitle": "بازار اجتماعی آنلاین باسلام",
+					"time": "خرداد 1399 - مهر 1399",
+					"type": "contract",
+					"tags": ["contract"],
+					"position": "مشاور فرانت اند",
+					"description":
+					"مشاوره تیم FrontEnd شرکت باسلام در مورد بازنویسی کد و انتقال آن به Nuxt.js."
+				},
+				{
+					"title": "رایمون",
+					"subtitle": "شرکت رایمون سیستم ایرانیان",
+					"time": "اسفند 1398 – شهریور 1399",
+					"type": "full-time",
+					"tags": ["full-time"],
+					"position": "مدیر تیم فرانت اند",
+					"description":
+						"Raimun یک شرکت هولدینگ نرم افزار است و دارای نرم افزار در زمینه های مختلف فنی مانند RaiLive ، RaiHost ، RaiQ ، RaiArt است.\nدر ابتدا در سمت برنامه نویس فرانت اند و در نهایت به عنوان مدیر تیم فرانت اند فعالیت کردم."
+				},
+				{
+					"title": "طرحان",
+					"subtitle": "شرکت بدیع پرداز",
+					"time": "تیر 1396 – بهمن 1398",
+					"type": "full-time",
+					"tags": ["full-time"],
+					"position": "مدیر فنی",
+					"description":
+						"پلت فرم طراحی و چاپ آنلاین که هدف آن اصلاح ساختارهای چاپی و طراحی موجود در بازار است.\nبرنامه نویسی پلتفرم طراحان و سایر اپلیکیشن های مجموعه."
+				},
+				{
+					"title": "اپن گیت",
+					"subtitle": "Doctors office management",
+					"time": "شهریور 1398 - بهمن 1398",
+					"type": "freelance",
+					"tags": ["freelance"],
+					"position": "برنامه نویس فرانت اند",
+					"description":
+						"پروژه ای برای مدیریت امور بیماران که برخی خدمات را برای پزشکان فراهم می کند.\nدر این پروژه برنامه نویسی فرانت اند پنل بک آفیس و مینی وب سایت مطب پزشکان را بر عهده داشتم."
+				},
+				{
+					"title": "کافی مافی",
+					"subtitle": "فروشگاه قهوه کافی مافی",
+					"time": "دی 1397 - آبان 1398",
+					"type": "freelance",
+					"tags": ["freelance"],
+					"position": "برنامه نویس فرانت اند",
+					"description": "کافی مافی یک فروشگاه آنلاین است که کالاهای ضروری قهوه و کافه را می فروشد. برنامه نویسی کامل فرانت اند این پروژه و بخشی از بک اند این پروژه توسط من انجام شده است."
+				},
+				{
+					"title": "پیرو آرچ",
+					"subtitle": "Auto Desk Inventor Add-ons",
+					"time": "بهمن 1394 – شهریور 1395",
+					"type": "freelance",
+					"tags": ["freelance"],
+					"position": "مهندس نرم افزار",
+					"description":
+						"یک پروژه توسعه عمیق ساخته شده توسط نرم افزار مهندسی Inventor برای ایجاد پلاگین هایی برای افزایش سرعت ساخت و تولید قطعات صنعتی. این پروژه به این دلیل است که در ایران و حتی در جهان مردم کمی به این فن آوری تسلط دارند و می توانند مهندسی نرم افزار را کاملا شخصی سازی کنند و فعالیت هایی را انجام دهند که ممکن است با یک کلیک زمان ببرد و زمانبر باشد."
+				}
+			]
+		},
+		"testimonial": {
+			"title": "توصیفات",
+			"description": "دیگران درباره من چه می گوید",
+			"items": [
+				{
+					"author": "راشید کابر",
+					"position": "Designer",
+					"image": "images/home/2.jpg",
+					"description":
+						"Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere."
+				},
+				{
+					"author": "منصور صالحی",
+					"position": "Developer",
+					"image": "images/home/2.jpg",
+					"description":
+						"Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere."
+				}
+			]
+		}
+	}
+}

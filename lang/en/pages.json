@@ -1,0 +1,252 @@
+{
+	"index": {
+		"banner": {
+			"title": "I Am Hamid",
+			"strings": [
+				"Developer<i>.</i>",
+				"OpenSource lover<i>.</i>",
+				"Essentialism<i>.</i>",
+				"Reading lover<i>.</i>",
+				"Very regular<i>.</i>",
+				"Hardworker<i>.</i>"
+			]
+		},
+		"about": {
+			"title": "About me",
+			"tabs": [
+				{
+					"title": "Myself.",
+					"description": "Hello, I am Hamid. Full-time programmer and interested in up-to-date and complex topics of software engineering, I have been working and learning as a full-time programmer for more than 5 years. I started programming with the great C++ language and have been specializing in the web for over 4 years. I am very interested in working in new fields. From site design and programmer to server management and config topics and its advanced issues."
+				},
+				{
+					"title": "Education.",
+					"description": "<p><b>STATE UNIVERSITY</b>, State College, Pa. <span>Bachelor of Arts in Advertising;</span> Minor: Spanish; GPA: 3.35, anticipated in May 2014</p><div class=\"tag\">Notable Accomplishments:</div><ul><li>Dean's List: Fall 2011, Spring 2018</li><li>Awarded Best Advertising Campaign Proposal for Health Committee, State University, Spring 2013</li></ul>"
+				},
+				{
+					"title": "Skill.",
+					"description": "<p>Sed ut perspiciatis<span>unde omnis iste natus error sit</span> voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><ul class=\"skill-list\"><li>Web Designing _<span>HTML/CSS</span></li><li>Graphic Design. _<span>UI/UX</span></li><li>Web Development. _<span>WORDPRESS/PHP</span></li><li>Application Dev. _<span>ANDROID/ IOS</span></li></ul>"
+				}
+			],
+			"download": "Download CV.",
+			"hire": "Contact US"
+		},
+		"skill": {
+			"title": "Skills",
+			"items": [
+				{
+					"title": "FrontEnd",
+					"items": [
+						{ "title": "JavaScript", "percent": 80 },
+						{ "title": "HTML", "percent": 90 },
+						{ "title": "CSS", "percent": 90 },
+						{ "title": "ES6 / ES7 / ES8", "percent": 95 },
+						{ "title": "Git", "percent": 90 },
+						{ "title": "Vue.js", "percent": 95 },
+						{ "title": "Nuxt.js", "percent": 95 },
+						{ "title": "WebSocket", "percent": 60 },
+						{ "title": "SCSS", "percent": 70 },
+						{ "title": "LESS", "percent": 50 },
+						{ "title": "Webpack", "percent": 30 },
+						{ "title": "JQuery", "percent": 95 },
+						{ "title": "Vuex", "percent": 70 },
+						{ "title": "Jest", "percent": 50 },
+						{ "title": "Cypress", "percent": 40 },
+						{ "title": "Puppeteer", "percent": 40 },
+						{ "title": "WebScrapping", "percent": 60 },
+						{ "title": "Electron.js", "percent": 30 },
+						{ "title": "Bootstrap", "percent": 100 },
+						{ "title": "Vuetify", "percent": 80 },
+						{ "title": "ElementUI", "percent": 80 },
+						{ "title": "TailwinCSS", "percent": 70 },
+						{ "title": "MaterialUI", "percent": 70 },
+						{ "title": "Balma", "percent": 50 },
+						{ "title": "WebRTC", "percent": 50 },
+						{ "title": "PWA", "percent": 50 },
+						{ "title": "ServiceWorker", "percent": 50 },
+						{ "title": "PWA", "percent": 50 },
+						{ "title": "FireBase", "percent": 30 }
+					]
+				},
+				{
+					"title": "BackEnd",
+					"items": [
+						{ "title": "PHP", "percent": 60 },
+						{ "title": "Laravel", "percent": 80 },
+						{ "title": "Node.js", "percent": 60 },
+						{ "title": "Express", "percent": 20 },
+						{ "title": "CPlusPlus", "percent": 25 },
+						{ "title": "Golang", "percent": 15 },
+						{ "title": "Git", "percent": 90 },
+						{ "title": "MongoDB", "percent": 50 },
+						{ "title": "MySql", "percent": 70 },
+						{ "title": "MariaDB", "percent": 70 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 },
+						{ "title": "Redis", "percent": 50 }
+					]
+				},
+				{
+					"title": "DevOps",
+					"items": [
+						{ "title": "Nginx", "percent": 70 },
+						{ "title": "Docker", "percent": 50 },
+						{ "title": "Kubernetes", "percent": 10 },
+						{ "title": "Openshift", "percent": 10 },
+						{ "title": "JamStack", "percent": 60 },
+						{ "title": "Docker Swarm", "percent": 60 },
+						{ "title": "GitLab CI/CD", "percent": 60 }
+					]
+				},
+				{
+					"title": "Operating System",
+					"items": [
+						{ "title": "Windows", "percent": 10, "subtitle": "16 Years" },
+						{ "title": "Linux", "percent": 10, "subtitle": "5 Years" },
+						{ "title": "MacOS", "percent": 10, "subtitle": "3 Years" }
+					]
+				}
+			]
+		},
+		"experience": {
+			"title": "Experience",
+			"tabs": [
+				{ "title": "All.", "filter": null },
+				{ "title": "Active.", "filter": "active" },
+				{ "title": "Full Time.", "filter": "full-time" },
+				{ "title": "Self Employed.", "filter": "self-employed" },
+				{ "title": "Contract.", "filter": "contract" },
+				{ "title": "Freelance.", "filter": "freelance" }
+			],
+			"items": [
+				{
+					"title": "Melodyo",
+					"subtitle": "Instrumental Music App",
+					"time": "Sep 2020 - Present",
+					"type": "self-employed",
+					"tags": ["self-employed", "active"],
+					"position": "Full Stack Engineer",
+					"description":
+					"Melodyo instrumental music application, in which I was in charge of programming Back and Front, as well as dubbing the project."
+				},
+				{
+					"title": "Alibaba",
+					"subtitle": "Alibaba Travels Co.",
+					"time": "Oct 2020 - Present",
+					"type": "full-time",
+					"tags": ["full-time", "active"],
+					"position": "FrontEnd Developer",
+					"description": "Front developer in domestic and international flight and assistance in the development of Alibaba's new website."
+				},
+				{
+					"title": "PaaSta",
+					"subtitle": "PaaSta Cloud Platform",
+					"time": "May 2020 - Present",
+					"type": "self-employed",
+					"tags": ["self-employed", "active"],
+					"position": "FrontEnd Developer",
+					"description":
+					"Pasta started its activity in the ArvanCloud programming competition, and with the efforts of team members, we produced products that facilitate the use of PaaS services. This product helps you convert your resources into applications and deploy your applications on PaaS servers without the use of learning tools such as Docker and Kubernetes.\nPasta won second place in the ArvanCloud cloud game competition and also second place in the Elcamp Stars 2021 event."
+				},
+				{
+					"title": "Basalam",
+					"subtitle": "Social Marketplace",
+					"time": "Jun 2020 - Oct 2020",
+					"type": "contract",
+					"tags": ["contract"],
+					"position": "FrontEnd Consultant",
+					"description":
+					"Basalam FrontEnd team advises on rewriting the code and transferring it to Nuxt.js."
+				},
+				{
+					"title": "Raimun",
+					"subtitle": "Computer Software",
+					"time": "Mar 2020 - Sep 2020",
+					"type": "full-time",
+					"tags": ["full-time"],
+					"position": "FrontEnd Team Lead",
+					"description":
+					"Raimun is a software holding company and has software in various technical fields such as RaiLive, RaiHost, RaiQ, RaiArt.\nI first worked as a front end programmer and eventually as a front end team manager."
+				},
+				{
+					"title": "TarHan",
+					"subtitle": "Online Graphic Platform",
+					"time": "Jul 2017 - Mar 2020",
+					"type": "full-time",
+					"tags": ["full-time"],
+					"position": "Head of Tech",
+					"description":
+					"A massive project to build a design and printing platform."
+				},
+				{
+					"title": "OpenGate",
+					"subtitle": "Doctors office management",
+					"time": "Sep 2019 - Feb 2020",
+					"type": "freelance",
+					"tags": ["freelance"],
+					"position": "FrontEnd Developer",
+					"description":
+					"Front-end developer and consultant on building a doctor's office management project with the OpenGate team."
+				},
+				{
+					"title": "CafiMafi",
+					"subtitle": "Online Coffee and accessories shop",
+					"time": "Dec 2018 - Oct 2019",
+					"type": "freelance",
+					"tags": ["freelance"],
+					"position": "FrontEnd Developer",
+					"description": "CafiMafi is an online store that sells essential coffee and coffee items. The complete programming of the front end of this project and part of the back end of this project was done by me."
+				},
+				{
+					"title": "PiroArch",
+					"subtitle": "Auto Desk Inventor Add-ons",
+					"time": "Jun 2016 - Aug 2016",
+					"type": "freelance",
+					"tags": ["freelance"],
+					"position": "Software Engineer",
+					"description":
+					"An in-depth development project developed by the Inventor engineering software to create plugins to increase the speed of manufacturing and manufacturing of industrial components. This project is due to the fact that in Iran and even in the world people are a bit fluent in this technology and can completely personalize software engineering and take activities that may take normal time-consuming time in one Click to implement."
+				}
+			]
+		},
+		"service": {
+			"title": "Services",
+			"description":
+				"Lorem ipsum dolor sit amet, ut mea inciderint ullamcorper. Mei putant deleniti",
+			"items": [
+				{
+					"title": "FrontEnd Development",
+					"description":
+						"Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec",
+					"icon": ""
+				},
+				{
+					"title": "FullStack Development",
+					"description":
+						"Extreme attention to detail is the essence of et Boo’s unique design concepts. In mals alienum scripserit sea, in alia aliquid nec",
+					"icon": ""
+				}
+			]
+		},
+		"testimonial": {
+			"title": "Testimonials",
+			"description": "What’s Our Client Say About Us.",
+			"items": [
+				{
+					"author": "Rashed kabir",
+					"position": "Designer",
+					"image": "images/home/2.jpg",
+					"description":
+						"Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere."
+				},
+				{
+					"author": "Zubayer hasan",
+					"position": "Developer",
+					"image": "images/home/2.jpg",
+					"description":
+						"Having a home based business is a wonderful asset to your life. The problem still stands, when it comes timeadvertise your business for a cheap cost. I know you have looked for to answer everywhere."
+				}
+			]
+		}
+	}
+}
