@@ -2,15 +2,15 @@ module.exports = {
 	root: true,
 	env: {
 		browser: true,
-		node: true
+		node: true,
 	},
 	parserOptions: {
 		parser: '@babel/eslint-parser',
-		requireConfigFile: false
+		requireConfigFile: false,
 	},
 	extends: [
 		'@nuxtjs',
-		'plugin:nuxt/recommended'
+		'plugin:nuxt/recommended',
 	],
 	// add your custom rules here
 	rules: {
@@ -25,12 +25,12 @@ module.exports = {
 				html: {
 					void: 'always',
 					normal: 'always',
-					component: 'always'
+					component: 'always',
 				},
 				svg: 'always',
-				math: 'always'
-			}
+				math: 'always',
+			},
 		],
-		'vue/no-v-html': 0
-	}
+		'vue/no-v-html': 0,
+	},
 }

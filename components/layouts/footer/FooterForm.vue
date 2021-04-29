@@ -21,7 +21,7 @@
 			</b-col>
 			<b-col cols="12">
 				<div class="input-group">
-					<textarea required></textarea>
+					<textarea required />
 					<label v-text="$t('layouts.footer.form.message')" />
 				</div>
 			</b-col>

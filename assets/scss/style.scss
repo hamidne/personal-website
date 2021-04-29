@@ -1245,7 +1245,7 @@ textarea {
 	width: 100%;
 	left: 0;
 	z-index: 99;
-	padding: 65px 0 0;
+	padding: 65px 65px 0;
 }
 
 .sass-contact-banner {
@@ -2193,9 +2193,6 @@ textarea {
 			}
 		}
 
-		position: absolute;
-		top: 57px;
-		right: 65px;
 		z-index: 1;
 	}
 
@@ -2216,8 +2213,9 @@ textarea {
 
 			.nav-link {
 				color: #fff;
-				position: relative;
 				padding: 0;
+				line-height: 2;
+				position: relative;
 
 				&:before {
 					content: '';
@@ -2942,7 +2940,7 @@ textarea {
 			display: inline-block;
 			font-size: 24px;
 			color: #ffffff;
-			margin-right: 65px;
+			margin-right: 45px;
 			cursor: pointer;
 		}
 
@@ -2972,10 +2970,15 @@ textarea {
 				color: rgba(255, 255, 255, 0.3);
 				line-height: 53px;
 				position: absolute;
-				left: 0;
 				top: 0;
 				z-index: -1;
 				margin: 0;
+				&:dir(rtl) {
+					right: 0;
+				}
+				&:dir(rtl) {
+					left: 0;
+				}
 			}
 
 			position: relative;
@@ -12008,17 +12011,22 @@ textarea {
 }
 
 .theme-title-two {
-	position: relative;
-	position: relative;
-	font-size: 144px;
 	color: #fff;
+	font-size: 8rem;
+	position: relative;
+	margin-bottom: 3rem;
 
 	&:first-letter {
-		text-transform: uppercase;
-		font-size: 300px;
-		text-shadow: 2px -0.9px 0px rgba(225, 163, 76, 1);
-		color: #1d2046;
 		padding-right: 15px;
+		&:dir(rtl) {
+			color: rgba(225, 163, 76, 1);
+		}
+		&:dir(ltr) {
+			text-transform: uppercase;
+			font-size: 300px;
+			text-shadow: 2px -0.9px 0px rgba(225, 163, 76, 1);
+			color: #1d2046;
+		}
 	}
 
 	span {
@@ -12269,18 +12277,15 @@ textarea {
 }
 
 .theme-main-menu.theme-menu-three.fixed {
-	padding: 20px 0 5px;
-	background: rgba(29, 31, 66, 0.98);
+	padding: 20px 65px 5px;
+	backdrop-filter: blur(8px);
+	background: rgba(29, 31, 66, 0.93);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .theme-menu-three.fixed {
 	.logo {
 		width: 70px;
-	}
-
-	.header-right-widget {
-		top: 14px;
 	}
 }
 
@@ -13630,20 +13635,30 @@ textarea {
 		font-size: 180px;
 		color: #26294f;
 		top: 60px;
-		right: 75px;
 		z-index: -1;
+		&:dir(rtl) {
+			left: 75px;
+		}
+		&:dir(ltr) {
+			right: 75px;
+		}
 
 		&:before {
 			content: '';
 			width: 0;
 			height: 2px;
 			position: absolute;
-			right: -75px;
 			top: 50%;
 			margin-top: -1px;
 			background: #e1a34c;
 			transition: width 1s ease-out;
 			transition-delay: 0.9s;
+			&:dir(rtl) {
+				left: -75px;
+			}
+			&:dir(ltr) {
+				right: -75px;
+			}
 		}
 
 		span {

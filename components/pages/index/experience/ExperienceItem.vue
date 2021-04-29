@@ -4,10 +4,10 @@
 			<h4 class="experience-item__title text-white" v-text="item.title" />
 			<span class="mx-2">-</span>
 			<h5 class="text-white-50" v-text="item.subtitle" />
-			<span class="mr-auto text-primary" v-text="item.position" />
+			<span class="experience-item__position" v-text="item.position" />
 		</div>
 		<span class="text-white-50" v-text="item.time" />
-		<p v-text="item.description" />
+		<p v-for="(desc, index) in descriptions" :key="index" v-text="desc" />
 	</div>
 </template>
 
@@ -17,6 +17,11 @@ export default {
 		item: {
 			type: Object,
 			required: true,
+		},
+	},
+	computed: {
+		descriptions() {
+			return this.item.description.split('\n')
 		},
 	},
 }
@@ -44,6 +49,12 @@ export default {
 			left: 0;
 			border-left: 3px solid #e1a34c;
 		}
+	}
+	&__position {
+		flex: 1;
+		display: flex;
+		color: #e1a34c;
+		justify-content: flex-end;
 	}
 }
 .experience-item__title {

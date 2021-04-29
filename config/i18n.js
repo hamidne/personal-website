@@ -3,11 +3,13 @@ export default {
 		{
 			code: 'en',
 			iso: 'en-US',
+			title: 'EN',
 			file: 'en/main.js',
 		},
 		{
 			code: 'fa',
 			iso: 'fa-IR',
+			title: 'فا',
 			file: 'fa/main.js',
 		},
 	],

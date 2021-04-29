@@ -1,6 +1,6 @@
 <template>
 	<div class="portfo-testimonial section-portfo">
-		<section-number :number="5" />
+		<section-number :number="4" />
 		<div class="container clearfix">
 			<section-title :title="$t('pages.index.testimonial.title')" />
 			<b-row class="row">
