@@ -36,10 +36,10 @@
 				{
 					"title": "فرانت اند",
 					"items": [
-						{ "title": "JavaScript", "percent": 100 },
-						{ "title": "HTML", "percent": 100 },
-						{ "title": "CSS", "percent": 100 },
-						{ "title": "ES6 / ES7 / ES8", "percent": 90 },
+						{ "title": "JavaScript", "percent": 80 },
+						{ "title": "HTML", "percent": 90 },
+						{ "title": "CSS", "percent": 90 },
+						{ "title": "ES6 / ES7 / ES8", "percent": 95 },
 						{ "title": "Git", "percent": 90 },
 						{ "title": "Vue.js", "percent": 95 },
 						{ "title": "Nuxt.js", "percent": 95 },
@@ -110,9 +110,6 @@
 		},
 		"experience": {
 			"title": "تجربیات",
-			"description":
-				"Die CI Farben von Millhaus sind schwarz . Nett aber auch herausfoernd. Anfangs probierten, uns abert z.",
-			"gallery": "View Gallery",
 			"tabs": [
 				{ "title": "همه.", "filter": null },
 				{ "title": "فعال.", "filter": "active" },

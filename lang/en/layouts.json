@@ -4,11 +4,11 @@
 			{ "title": "Home.", "target": "body" },
 			{ "title": "About.", "target": ".about-me-portfo" },
 			{ "title": "Sills.", "target": ".skill-section-portfo" },
-			{ "title": "Services.", "target": ".our-service-portfo" },
-			{ "title": "Projects.", "target": ".our-project-portfo" }
+			{ "title": "Experience.", "target": ".our-experience-portfo" },
+			{ "title": "Contact US.", "target": ".portfo-footer" }
 		],
 		"socials": [
-			{ "icon": "fab fa-facebook-f", "href": "" },
+			{ "icon": "fab fa-twitter", "href": "https://twitter.com/hamidnasr97" },
 			{ "icon": "fab fa-github", "href": "https://github.com/hamidne" },
 			{
 				"icon": "fab fa-linkedin-in",
@@ -27,7 +27,7 @@
 			"send": "Send Message"
 		},
 		"socials": [
-			{ "icon": "fab fa-facebook-f", "href": "" },
+			{ "icon": "fab fa-twitter", "href": "https://twitter.com/hamidnasr97" },
 			{ "icon": "fab fa-github", "href": "https://github.com/hamidne" },
 			{
 				"icon": "fab fa-linkedin-in",
