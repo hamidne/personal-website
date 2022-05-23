@@ -9,8 +9,8 @@
 					:class="{ 'show-pr': visiable }"
 				>
 					<img
-						src="https://heloshape.com/html/rogan/rogan-c/html/images/home/9.jpg"
-						alt=""
+						src="~/assets/images/about/hamid.jpg"
+						alt="hamid nasr - about"
 					/>
 				</div>
 
