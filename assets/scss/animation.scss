@@ -1,72 +1,57 @@
 @keyframes jump {
 	0% {
-		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	}
 	40% {
-		-webkit-transform: translate3d(0,50%,0);
 		transform: translate3d(0,50%,0);
 	}
 	100% {
-		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	}
 }
 @keyframes rotated {
 	0% {
-		-webkit-transform: rotate(0);
 		transform: rotate(0);
 	}
 	100% {
-		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
 }
 @keyframes rotatedHalf {
 	0% {
-		-webkit-transform: rotate(0);
 		transform: rotate(0);
 	}
 	50% {
-		-webkit-transform: rotate(90deg);
 		transform: rotate(90deg);
 	}
 	100% {
-		-webkit-transform: rotate(0);
 		transform: rotate(0);
 	}
 }
 @keyframes rotatedHalfTwo {
 	0% {
-		-webkit-transform: rotate(-90deg);
 		transform: rotate(-90deg);
 	}
 	100% {
-		-webkit-transform: rotate(90deg);
 		transform: rotate(90deg);
 	}
 }
 @keyframes scale-upOne {
 	0% {
-		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 	100% {
-		-webkit-transform: scale(0.2);
 		transform: scale(0.2);
 	}
 }
 @keyframes scale-right {
 	0% {
-		-webkit-transform: translateX(-50%);
 		transform: translateX(-50%);
 	}
 	50% {
-		-webkit-transform: translateX(50%);
 		transform: translateX(50%);
 	}
 	100% {
-		-webkit-transform: translateX(-50%);
 		transform: translateX(-50%);
 	}
 }
